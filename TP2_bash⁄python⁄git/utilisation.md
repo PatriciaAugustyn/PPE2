@@ -23,7 +23,10 @@ Une fois l'environnement virtuel activé, vous pouvez utilisé la commande suiva
 pip install prettytable
 ```
 
-Pretty Table est une librairie Python qui permet d'afficher des données sous forme de tableau. Pour notre cas, ....
+Pretty Table est une librairie Python qui permet d'afficher des données sous forme de tableau. Pour notre cas, on veut afficher le lexique du corpus sur trois colonnes : 
+- 1) le mot 2)
+  2) le nombre d’occurrences total
+  3) 3) le nombre de documents où il apparaît
 
 ## Étape 3 : Lancement de la fonction dans le terminal
 
