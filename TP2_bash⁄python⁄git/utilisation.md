@@ -14,7 +14,6 @@ Puis, activez l'environnement virtuel :
 
 ```
 source venv/bin/activate
-
 ```
 
 ## Étape 2 : Installation de Pretty Table
