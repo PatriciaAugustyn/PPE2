@@ -23,7 +23,14 @@ Une fois l'environnement virtuel activé, vous pouvez utilisé la commande suiva
 pip install prettytable
 ```
 
+Pretty Table est une librairie Python qui permet d'afficher des données sous forme de tableau. Pour notre cas, ....
+
 ## Étape 3 : Lancement de la fonction dans le terminal
+
+Maintenant vous pouvez lancer la fonction dans le terminal en utilisant : 
+```
+python3 extraire_lexique.py
+```
 
 
 
