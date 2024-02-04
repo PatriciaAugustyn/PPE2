@@ -18,4 +18,17 @@ source venv/bin/activate
 
 ## Étape 2 : Installation de Pretty Table
 
+Une fois l'environnement virtuel activé, vous pouvez utilisé la commande suivante pour installer Pretty Table : 
+```
+pip install prettytable
+```
+
+## Étape 3 : Lancement de la fonction dans le terminal
+
+
+
+
+
+
+
 
