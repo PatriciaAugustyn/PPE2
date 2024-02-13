@@ -23,10 +23,10 @@ def chemins_vers_fichiers():
 def main():
     # Vérifie si au moins une option est passée
     if len(sys.argv) < 2:
-        print("L'utilisation de ce programme : python3 extraire_lexique.py <option> [corpus]")
-        print("--choix1 : python3 extraire_lexique.py --choix1 Corpus/*.txt")
-        print("--choix2 : cat Corpus/*.txt | python3 extraire_lexique.py --choix2")
-        print("--choix3 :  ls Corpus/*.txt | python extraire_lexique.py --choix3")
+        print("L'utilisation de ce programme : python3 extraire_lexique_bash.py <option> [corpus]")
+        print("--choix1 : python3 extraire_lexique_bash.py --choix1 Corpus/*.txt")
+        print("--choix2 : cat Corpus/*.txt | python3 extraire_lexique_bash.py --choix2")
+        print("--choix3 :  ls Corpus/*.txt | python extraire_lexique_bash.py --choix3")
 
         sys.exit(1)
     option = sys.argv[1]
