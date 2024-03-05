@@ -2,42 +2,9 @@ import re
 import feedparser
 import xml.etree.ElementTree as ET
 import argparse
-import re
 from tabulate import tabulate
 from typing import List
 from datastructures import Item
-
-class Item:
-    def __init__(self, guid, title, link, description, category, pubdate):
-        self._data = {
-            'guid': guid,
-            'title': title,
-            'link': link,
-            'description': description,
-            'category': category,
-            'pubdate': pubdate
-        }
-
-    def __getitem__(self, key):
-        return self._data[key]
-
-    def __setitem__(self, key, value):
-        self._data[key] = value
-
-    def keys(self):
-        return self._data.keys()
-
-    def values(self):
-        return self._data.values()
-
-    def items(self):
-        return self._data.items()
-
-
-# def lire_contenu_fichier(chemin):
-#     with open(chemin, 'r') as fichier:
-#         contenu = fichier.read()
-#     return contenu
 
 def module_re(chemins: List[str], date_debut=None, date_fin=None) -> List[Item]:
     liste_infos = []
@@ -160,7 +127,5 @@ def main():
     print(tabulate(data, headers=headers, tablefmt="grid", maxcolwidths=20))
     # print(data)
 
-
 if __name__ == '__main__':
     main()
-

@@ -1,46 +1,61 @@
-
 import xml.etree.ElementTree as ET
+from datastructures import Item, Corpus
 from pathlib import Path
-from rss_reader import module_re, module_etree, module_feedparser, Item
+from rss_reader import module_re, module_etree, module_feedparser
 from datetime import datetime, timezone
 from typing import List
 
+def afficher_resultats(corpus, args):
+    """Affiche les résultats du corpus ou de la filtration sur la console."""
 
-def afficher_resultats(data,args):
-    """
-    Affiche les données dans le format spécifié.
-    """
-    for entry in data:
-        dico = entry[0]
-        #print(f"[{{'{entry_dict[args.category]}': {{'GUID': '{entry[1]}', 'Titre': '{entry[2]}', 'Lien': '{entry[3]}', 'Description': '{entry[4]}', 'Date de publication': '{entry[5]}'}}}}]")
+    # Si les catégories sont spécifiées, imprimer les catégories
+    if args.category:
+        print("Categories: ", args.category)
 
-        print(f"[{{'{dico[args.category]}': '{entry[1]}', '{entry[2]}', '{entry[3]}', '{entry[4]}', '{entry[5]}'}}]")
+    # Parcourir chaque élément du corpus
+    for item in corpus:
+        formatted_guid = str(item.guid) if item.guid is not None else ""
+        formatted_title = str(item.title) if item.title is not None else ""
+        formatted_link = str(item.link) if item.link is not None else ""
+        formatted_description = str(item.description) if item.description is not None else ""
+        formatted_pubdate = str(item.pubdate) if item.pubdate is not None else ""
+        formatted_category = str(item.category) if item.category is not None else ""
+        print(f"GUID: {formatted_guid}")
+        print(f"Title: {formatted_title}")
+        print(f"Link: {formatted_link}")
+        print(f"Description: {formatted_description}")
+        print(f"Pubdate: {formatted_pubdate}")
+        print(f"Category: {formatted_category}")
+        print("-" * 50)
 
-def choix_filtrage(corpus, args):
-    if args.category is not None:
-        corpus = filtrer_articles_par_catogory(corpus, args.category)
-    if args.date and (args.date_debut or args.date_fin):
-        date_debut = datetime.strptime(args.date_debut, '%a, %d %b %Y %H:%M:%S %z') if args.date_debut else None
-        date_fin = datetime.strptime(args.date_fin, '%a, %d %b %Y %H:%M:%S %z') if args.date_fin else None
-        corpus = filtrer_articles_par_date(corpus, date_debut, date_fin)
-    return corpus
-
-
-def filtrer_articles_par_catogory(liste_articles_uniq, category_choisi):
-    articles_choisis=[]
+def filtrer_articles_par_category(liste_articles_uniq, category_choisi):
+    articles_choisis = []
     for article in liste_articles_uniq:
-        if category_choisi in article['category']:
+        if category_choisi in article.category:
             articles_choisis.append(article)
     return articles_choisis
 
-def parcourir_corpus(dossier, args) -> List[Item]:
+def choix_filtrage(corpus, args):
+    if isinstance(corpus, list):
+        if args.category is not None:
+            corpus = filtrer_articles_par_category(corpus, args.category)
+
+        if args.date and (args.date_debut or args.date_fin):
+            date_debut = datetime.strptime(args.date_debut, '%a, %d %b %Y %H:%M:%S %z') if args.date_debut else None
+            date_fin = datetime.strptime(args.date_fin, '%a, %d %b %Y %H:%M:%S %z') if args.date_fin else None
+            corpus = filtrer_articles_par_date(corpus, date_debut, date_fin)
+        return Corpus(articles=corpus)
+    else:
+        return corpus
+
+def parcourir_corpus(dossier, args) -> Corpus:
     """Parcourir les fichiers dans le dossier donné en argument"""
 
-    #Mettre tous les fichiers du dossier dans une liste
+    # Mettre tous les fichiers du dossier dans une liste
     dossier = Path(dossier)
     fichiers = list(dossier.glob('**/*.xml'))
 
-    #Liste des articles uniques à retourner
+    # Liste des articles uniques à retourner
     liste_articles_uniq = []
     titres_uniq = set()
 
@@ -51,7 +66,7 @@ def parcourir_corpus(dossier, args) -> List[Item]:
     """
 
     for fichier in fichiers:
-        liste_fichier=[]
+        liste_fichier = []
         liste_fichier.append(fichier)
         if args.re is True:
             liste_articles = module_re(liste_fichier)
@@ -63,20 +78,22 @@ def parcourir_corpus(dossier, args) -> List[Item]:
         elif args.feedparser is True:
             liste_articles = module_feedparser(liste_fichier)
 
-        #Ajouter des nouveaux articles
-        for article in liste_articles:
-            if article['title'] not in titres_uniq:
-                liste_articles_uniq.append(article)
-                titres_uniq.add(article['title'])
+        # Ajouter des nouveaux articles
+        for article_data in liste_articles:
+            if article_data['title'] not in titres_uniq:
+                item = Item(**article_data)
+                liste_articles_uniq.append(item)
+                titres_uniq.add(article_data['title'])
 
             # Si l'article existe mais avec une catégorie différente, ajouter la nouvelle catégorie
             else:
-                for article_existant in liste_articles:
-                    if article['title'] == article_existant['title']:
-                        if article['category'][0] not in article_existant['category']:
-                            article_existant['category'].append(article['category'][0])
+                for article_existant in liste_articles_uniq:
+                    if article_data['title'] == article_existant.title:
+                        if article_data['category'][0] not in article_existant.category:
+                            article_existant.category.append(article_data['category'][0])
 
-    return liste_articles_uniq
+    return Corpus(articles=liste_articles_uniq)
+
 
 def convertir_date(date_string):
     #utiliser différents formats de date pour le filtrage

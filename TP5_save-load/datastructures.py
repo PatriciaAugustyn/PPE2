@@ -1,7 +1,6 @@
 from dataclasses import dataclass
-from pathlib import Path
 from typing import List
-import pickle
+import xml.etree.ElementTree as ET
 
 @dataclass
 class Item:
@@ -11,19 +10,24 @@ class Item:
     description: str
     pubdate: str
     category: List[str]
-    source: str
+
+    def __post_init__(self):
+        if not hasattr(self, '_data'):
+            self._data = {
+                'guid': self.guid,
+                'title': self.title,
+                'link': self.link,
+                'description': self.description,
+                'category': self.category,
+                'pubdate': self.pubdate,
+            }
 
 @dataclass
 class Corpus:
     articles: List[Item]
 
-# R3 pickle : https://docs.python.org/fr/3/library/pickle.html#examples
-def save_pickle(corpus: Corpus, output_file: Path) -> None:
-    with open(output_file, 'wb') as pickle_file:
-        pickle.dump(corpus, pickle_file)
+    def __init__(self, articles):
+        self.articles = articles
 
-def load_pickle(input_file: Path) -> Corpus:
-    with open(input_file, 'rb') as pickle_file:
-        corpus = pickle.load(pickle_file)
-    return corpus
-
+    def __iter__(self):
+        return iter(self.articles)
