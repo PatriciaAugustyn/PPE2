@@ -11,7 +11,7 @@
 ### Clara :
 
 ## NGAUV Nicolas
-- Exercice 1 : Prise en main de trankit (utilisation de Trankit pour l'analyse de texte en utilisant le modèle pré-entrainé pour le français) :
+- **Exercice 1** : Prise en main de trankit (utilisation de Trankit pour l'analyse de texte en utilisant le modèle pré-entrainé pour le français) :
     - Importation de la classe `Pipeline` de Trankit :
         - avec `from trankit import Pipeline`
         - utilisée pour charger et utiliser les modèles de traitement du langage naturel pré-entraînés
@@ -61,7 +61,7 @@
                     token_upos = token['upos']
             # Parcours de chaque token dans le dictionnaire retourné par Trankit, et extraction de sa forme, de son lemme et de sa partie du discours.
          ```
-- Exercice 2 :
+- **Exercice 2** :
     - pour utiliser `demo_trankit.py` :
         ```
         python3 demo_trankit.py <chemin_du_fichier_à_analyser> <chemin_du_fichier_resultat>
@@ -70,7 +70,7 @@
         ```
         python3 demo_trankit.py test.txt test_res.txt
         ```
-- Exercice 3 :
+- **Exercice 3** :
     - Beaucoup de problèmes par rapport au format de données, surtout concernant les fichiers au format pickle.
     - Petite aide à l'utilisation et au test (les fichiers `corpus_filtered` sont des corpus précédemment sauvegardé qu'on veut charger pour l'analyse : à remplacer par vos propres fichiers de corpus si vous voulez tester les vôtres):
         ```
@@ -85,6 +85,16 @@
     - A noter qu'on peut également changer de format : le format du fichier de sortie n'a pas à être celui du fichier d'entrée !
         - Cela évite les déconvenues nommées précédemment...
         - Exemple : `python3 analyzers.py -i corpus_filtered.json -t trankit -o res_trankit.pickle`
+- **Exercice 4** : Relecture du code de Clara
+    - Des petites erreurs mais qui ont été corrigées !
+    - Le code fonctionne, sauf pour la partie pickle où il faut rester vigilant (cf. mes commentaires sur l'exercice 3 juste au dessus).
+- **Exercice 5** :
+    - ***Mes difficultés*** :
+        - Un exercice 3 assez compliqué et particulièrement chronophage, notamment à cause de la gestion des différents types de données et de formats...
+    - ***Mes solutions*** :
+        - Communication et entraide entre camarades : très important pour l'organisation mais aussi tout simplement pour avancer.
+    - ***Merges*** :
+        - J'ai fusionné les branches de Patricia et de Clara sur la mienne, puis j'ai fusionné la mienne sur le main : c'était le plus simple pour tout le monde et moi ça ne me dérangeait absolument pas, donc je me suis proposé de le faire.
 
 ### Patricia :
 
@@ -164,3 +174,6 @@ De plus, en discutant entre nous, nous avons fait en sorte de nous simplifier le
 
 
 ***Choix des merges*** : Pour le choix du merge, Clara et Nicolas ont repris le relais car malheureusement je ne peut travailler jusqu'à dimanche. Ainsi, comme ils ont terminé un peu plus tard, ils ont pu peaufiner notre fonction effectuer le merge.
+
+
+
