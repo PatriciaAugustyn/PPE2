@@ -1,12 +1,20 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict, field
 from xml.etree import ElementTree as ET
 from pathlib import Path
+from typing import Optional
 
 import datetime
 import json
 import pickle
 
 from dateutil import parser as dateparser
+
+
+@dataclass
+class Token:
+    shape : str
+    lemma : str
+    pos : str
 
 
 @dataclass
@@ -17,6 +25,7 @@ class Item:
     description : str
     date : datetime.date
     categories : set[str]
+    analysis : list[Token] = field(default_factory=list)
 
 
 @dataclass
@@ -54,7 +63,15 @@ def save_xml(corpus : Corpus, output_file: Path) -> None:
             cat_e = ET.SubElement(categories_e, "category")
             cat_e.text = cat
 
+        analysis_e = ET.SubElement(item_e, "analysis")
+        for token in item.analysis:
+            token_e = ET.SubElement(analysis_e, "token")
+            shape_e = ET.SubElement(token_e, "shape").text = token.shape
+            lemma_e = ET.SubElement(token_e, "lemma").text = token.lemma
+            pos_e = ET.SubElement(token_e, "pos").text = token.pos
+
     tree = ET.ElementTree(root)
+    ET.indent(tree)  # for pretty printing
     tree.write(output_file, encoding="utf-8", xml_declaration=True)
 
 
@@ -73,13 +90,18 @@ def load_xml(input_file: Path) -> Corpus:
         for cat in list(item.find("categories")):
             categories.add(cat.text)
 
+        analysis = []
+        for token in list(item.find("analysis") or []):  # analysis node may not exist (previous versions)
+            analysis.append(Token(token.find("shape").text, token.find("lemma").text, token.find("pos").text))
+
         corpus_item = Item(
             id = item.find("id").text,
             source = item.find("source").text,
             title = item.find("title").text,
             description = item.find("description").text,
             date = item_date,
-            categories = categories
+            categories = categories,
+            analysis = analysis
         )
         corpus.items.append(corpus_item)
 
@@ -89,6 +111,7 @@ def load_xml(input_file: Path) -> Corpus:
 def save_json(corpus : Corpus, output_file: Path) -> None:
     data = []
     for item in corpus.items:
+        the_date = None
         if item.date is not None:
             the_date = datetime.date.isoformat(item.date)
 
@@ -98,7 +121,8 @@ def save_json(corpus : Corpus, output_file: Path) -> None:
             "title": item.title,
             "description": item.description,
             "date": the_date,
-            "categories": sorted(item.categories)  # toujours avoir la même sérialisation (set n'est pas trié)
+            "categories": sorted(item.categories),  # toujours avoir la même sérialisation (set n'est pas trié)
+            "analysis": [asdict(token) for token in item.analysis]
         }
         data.append(current)
 
@@ -116,7 +140,11 @@ def load_json(input_file: Path) -> Corpus:
                 title=it["title"],
                 description=it["description"],
                 date=it["date"] and datetime.date.fromisoformat(it["date"]),  # voir main.py pour syntaxe
-                categories=set(it["categories"])
+                categories=set(it["categories"]),
+                analysis = [
+                    Token(token["shape"], token["lemma"], token["pos"])
+                    for token in it.get("analysis",[])
+                ]
             )
             for it in json.load(input_stream)
         ]
