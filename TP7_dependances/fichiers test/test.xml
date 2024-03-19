@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<corpus>
+  <item>
+    <id>https://www.lefigaro.fr/sports/basket/nba/nba-trouver-notre-identite-de-jeu-les-premiers-mots-de-doc-rivers-nouveau-coach-des-bucks-20240127</id>
+    <source>Le Figaro - Basket.xml</source>
+    <title>NBA : «Trouver notre identité de jeu», les premiers mots de Doc Rivers, nouveau coach des Bucks</title>
+    <description>Ce samedi, Doc Rivers s’est exprimé pour la première fois avec son nouveau club.</description>
+    <date>2024-01-27</date>
+    <categories>
+      <category>Basket</category>
+      <category>NBA</category>
+    </categories>
+    <analysis />
+  </item>
+  <item>
+    <id>https://www.lefigaro.fr/sports/basket/basket-paris-encore-battu-face-a-strasbourg-20240127</id>
+    <source>Le Figaro - Basket.xml</source>
+    <title>Basket : Paris encore battu face à Strasbourg</title>
+    <description>Les Parisiens une deuxième défaite de suite ce samedi face à Strasbourg (89-86).</description>
+    <date>2024-01-27</date>
+    <categories>
+      <category>Basket</category>
+    </categories>
+    <analysis />
+  </item>
+  <item>
+    <id>https://www.lefigaro.fr/sports/basket/basket-le-csp-limoges-en-plein-chaos-20240127</id>
+    <source>Le Figaro - Basket.xml</source>
+    <title>Basket: le CSP Limoges, monument du basket français, en plein chaos</title>
+    <description>Le monument du basket français, sanctionné pour problèmes financiers, vient de voir partir son entraîneur et de limoger son directeur sportif, une situation de plus en plus mal vécue par joueurs et supporters.</description>
+    <date>2024-01-27</date>
+    <categories>
+      <category>Basket</category>
+    </categories>
+    <analysis />
+  </item>
+  <item>
+    <id>https://www.lefigaro.fr/sports/basket/nba/nba-73-points-pour-un-doncic-historique-booker-prend-feu-en-vain-wembanama-et-les-spurs-convaincants-20240127</id>
+    <source>Le Figaro - Basket.xml</source>
+    <title>NBA : 73 points pour un Doncic historique, Booker prend feu en vain, Wembanama et les Spurs convaincants</title>
+    <description>L'arrière slovène de Dallas s'est fendu de 73 points face à Atlanta la nuit passée, réalisant ainsi la quatrième performance de toute l'histoire de la NBA.</description>
+    <date>2024-01-27</date>
+    <categories>
+      <category>Basket</category>
+      <category>NBA</category>
+    </categories>
+    <analysis />
+  </item>
+</corpus>

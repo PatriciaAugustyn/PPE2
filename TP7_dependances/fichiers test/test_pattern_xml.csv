@@ -1,0 +1,13 @@
+Pattern	Instance	Count
+verb --obj-> noun	trouver -- identité	1
+verb --obj-> noun	voir -- entraîneur	1
+verb --obj-> noun	limoger -- directeur	1
+verb --obj-> noun	prendre -- feu	1
+verb --obj-> noun	réaliser -- performance	1
+verb --nsubj-> noun	fendre -- arrière	1
+noun --nmod-> noun	identité -- jeu	1
+noun --nmod-> noun	parisien -- défaite	1
+noun --nmod-> noun	défaite -- samedi	1
+noun --nmod-> noun	chaos -- joueur	1
+noun --nmod-> noun	monument -- basket	1
+noun --nmod-> noun	performance -- histoire	1
