@@ -8,7 +8,22 @@
 
 ## Séance du 13 mars 2024
 
-### Keming :
+## Keming :
+
+**Important :** Les commandes du lancement de script sont tous indiqués au début du script. Et dans le dossier `fichiers test`, il y a des fichiers générés avec les scripts. `main.py` => `test.*` `analyzers.py` => `test_dep.*`
+
+pour `patterns.py`, on peut choisir un ou plusieurs modèles (r1, r2, r3)
+
+------
+
+Je suis chargé du R2 et de faire le merge.
+
+1. pour exo 3, vu qu'on a pris les scripts de correction, donc j'ai oublié de ajouter `depparse‘`, ce qui explique la raison que la dépendance avait été toujours une liste vide.
+2. et pour faciliter le merge, j'ai suivi le modèle de Patricia sur le changement de dataclass
+3. Pour le merge : étant donné de la différence de datastructure entre Nicolas et nous deux, j'ai dû modifier la fonction d'`analyze_trankit`.  Pour générer les fichiers avec dépendance, je n'ai pas mis `--save-serialized` au début, donc le fichier `pickle` était toujours sous format `json`, avant de merger, je n'y ai pas fait attention car je travaillais sur `json`. 
+4. quant à la relecture, j'ai relu la branche de Patricia, tout va bien pour l'exo 1,2,3.
+5. Pour exo 4,  Nicolas et moi avons tous fini les 3 patrons, j'ai pris le mien pour éviter faire le merge et modifier.
+6. J'aimerais bien savoir comment eviter de télécharger le `cache` du trankit chaque fois, car il n'y a pas de wifi chez moi.
 
 ## Nicolas :
 
