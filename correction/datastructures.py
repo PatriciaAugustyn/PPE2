@@ -15,6 +15,8 @@ class Token:
     shape : str
     lemma : str
     pos : str
+    dep : str
+    gov : int
 
 
 @dataclass
@@ -25,7 +27,7 @@ class Item:
     description : str
     date : datetime.date
     categories : set[str]
-    analysis : list[Token] = field(default_factory=list)
+    analysis : list[list[Token]] = field(default_factory=list)
 
 
 @dataclass
@@ -36,6 +38,11 @@ class Corpus:
     #    - changer le type vers dict[str, Item] où la clé (str) sera le guid de l'item.
     items : list[Item]
 
+
+@dataclass(frozen=True)
+class Match:
+    rule: str
+    lemmes: tuple[str]
 
 def save_xml(corpus : Corpus, output_file: Path) -> None:
     root = ET.Element("corpus")
@@ -64,11 +71,13 @@ def save_xml(corpus : Corpus, output_file: Path) -> None:
             cat_e.text = cat
 
         analysis_e = ET.SubElement(item_e, "analysis")
-        for token in item.analysis:
-            token_e = ET.SubElement(analysis_e, "token")
-            shape_e = ET.SubElement(token_e, "shape").text = token.shape
-            lemma_e = ET.SubElement(token_e, "lemma").text = token.lemma
-            pos_e = ET.SubElement(token_e, "pos").text = token.pos
+        for sentence in item.analysis: 
+            sent_e = ET.SubElement(analysis_e, "sentence")
+            for token in sentence:
+                token_e = ET.SubElement(sent_e, "token")
+                shape_e = ET.SubElement(token_e, "shape").text = token.shape
+                lemma_e = ET.SubElement(token_e, "lemma").text = token.lemma
+                pos_e = ET.SubElement(token_e, "pos").text = token.pos
 
     tree = ET.ElementTree(root)
     ET.indent(tree)  # for pretty printing
@@ -91,8 +100,11 @@ def load_xml(input_file: Path) -> Corpus:
             categories.add(cat.text)
 
         analysis = []
-        for token in list(item.find("analysis") or []):  # analysis node may not exist (previous versions)
-            analysis.append(Token(token.find("shape").text, token.find("lemma").text, token.find("pos").text))
+        for sentence in list(item.find("analysis") or []):  # analysis node may not exist (previous versions)
+            sentence = []
+            for token in list(item.find("sentence") or []):  # analysis node may not exist (previous versions)
+                sentence.append(Token(token.find("shape").text, token.find("lemma").text, token.find("pos").text, token.find("dep"), int(token.find("gov"))))
+            analysis.append(sentence)
 
         corpus_item = Item(
             id = item.find("id").text,
@@ -122,7 +134,7 @@ def save_json(corpus : Corpus, output_file: Path) -> None:
             "description": item.description,
             "date": the_date,
             "categories": sorted(item.categories),  # toujours avoir la même sérialisation (set n'est pas trié)
-            "analysis": [asdict(token) for token in item.analysis]
+            "analysis": [[asdict(token) for token in sentence] for sentence in item.analysis]
         }
         data.append(current)
 
@@ -142,8 +154,9 @@ def load_json(input_file: Path) -> Corpus:
                 date=it["date"] and datetime.date.fromisoformat(it["date"]),  # voir main.py pour syntaxe
                 categories=set(it["categories"]),
                 analysis = [
-                    Token(token["shape"], token["lemma"], token["pos"])
-                    for token in it.get("analysis",[])
+                    [ Token(token["shape"], token["lemma"], token["pos"], token["dep"], token["gov"])
+                    for token in sentence ]
+                    for sentence in it.get("analysis",[]) 
                 ]
             )
             for it in json.load(input_stream)

@@ -3,7 +3,7 @@ from datastructures import Token, Item, name2loader, name2saver
 
 def load_spacy():
     import spacy
-    return spacy.load("fr_core_news_sm")
+    return spacy.load("fr_core_news_lg")
 
 
 def load_stanza():
@@ -20,9 +20,11 @@ def load_trankit():
 def analyze_spacy(parser, article: Item) -> Item:
     result = parser( (article.title or "" ) + "\n" + (article.description or ""))
     output = []
-    for token in result:
-        if token.text.strip():
-            output.append(Token(token.text, token.lemma_, token.pos_))
+    for sentence in result.sents:
+        output.append([])
+        for token in sentence:
+            if token.text.strip():
+                output[-1].append(Token(token.text, token.lemma_, token.pos_, token.dep_, token.head.i - sentence.start))
     article.analysis = output
     return article
 
