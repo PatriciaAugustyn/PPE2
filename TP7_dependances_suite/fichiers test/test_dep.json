@@ -1,0 +1,5875 @@
+[
+  {
+    "id": "https://www.lefigaro.fr/arts-expositions/hommages-mitiges-a-carl-andre-maitre-du-minimalisme-americain-20240128",
+    "source": "Le Figaro - Arts et Expositions.xml",
+    "title": "Hommages mitig\u00e9s \u00e0 Carl Andre, ma\u00eetre du minimalisme am\u00e9ricain",
+    "description": "DISPARITION Le grand artiste qui a pos\u00e9 ses sculptures abstraites dans tous les grands mus\u00e9es du monde, resta marqu\u00e9 par la mort violente de sa compagne, l\u2019artiste cubaine Ana Mendieta, en 1985. Cible des f\u00e9ministes am\u00e9ricaines, il reste un sujet d\u00e9licat \u00e0 sa mort, \u00e0 88 ans, le 24 janvier \u00e0 New York.",
+    "date": "2024-01-28",
+    "categories": [
+      "Arts Expositions"
+    ],
+    "analysis": [
+      {
+        "shape": "Hommages",
+        "lemma": "hommage",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "mitig\u00e9s",
+            "lemma": "mitiger",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "Carl",
+            "lemma": "Carl",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "mitig\u00e9s",
+        "lemma": "mitiger",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Carl",
+        "lemma": "Carl",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "Andre",
+            "lemma": "Andre",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          },
+          {
+            "text": "ma\u00eetre",
+            "lemma": "ma\u00eetre",
+            "pos": "NOUN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "Andre",
+        "lemma": "Andre",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "ma\u00eetre",
+        "lemma": "ma\u00eetre",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "minimalisme",
+            "lemma": "minimalisme",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "minimalisme",
+        "lemma": "minimalisme",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "am\u00e9ricain",
+            "lemma": "am\u00e9ricain",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "DISPARITION",
+            "lemma": "disparition",
+            "pos": "NOUN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "am\u00e9ricain",
+        "lemma": "am\u00e9ricain",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "DISPARITION",
+        "lemma": "disparition",
+        "pos": "NOUN",
+        "dependencies": []
+      },
+      {
+        "shape": "Le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "grand",
+        "lemma": "grand",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "artiste",
+        "lemma": "artiste",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "Le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "grand",
+            "lemma": "grand",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "pos\u00e9",
+            "lemma": "poser",
+            "pos": "VERB",
+            "dependencies": "acl:relcl"
+          },
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "qui",
+        "lemma": "qui",
+        "pos": "PRON",
+        "dependencies": []
+      },
+      {
+        "shape": "a",
+        "lemma": "avoir",
+        "pos": "AUX",
+        "dependencies": []
+      },
+      {
+        "shape": "pos\u00e9",
+        "lemma": "poser",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "qui",
+            "lemma": "qui",
+            "pos": "PRON",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "a",
+            "lemma": "avoir",
+            "pos": "AUX",
+            "dependencies": "aux:tense"
+          },
+          {
+            "text": "sculptures",
+            "lemma": "sculpture",
+            "pos": "NOUN",
+            "dependencies": "obj"
+          },
+          {
+            "text": "mus\u00e9es",
+            "lemma": "mus\u00e9e",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          }
+        ]
+      },
+      {
+        "shape": "ses",
+        "lemma": "son",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "sculptures",
+        "lemma": "sculpture",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "ses",
+            "lemma": "son",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "abstraites",
+            "lemma": "abstrait",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "abstraites",
+        "lemma": "abstrait",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "dans",
+        "lemma": "dans",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "tous",
+        "lemma": "tout",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "grands",
+        "lemma": "grand",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "mus\u00e9es",
+        "lemma": "mus\u00e9e",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "dans",
+            "lemma": "dans",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "tous",
+            "lemma": "tout",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "grands",
+            "lemma": "grand",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "monde",
+            "lemma": "monde",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "monde",
+        "lemma": "monde",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "resta",
+        "lemma": "rester",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "artiste",
+            "lemma": "artiste",
+            "pos": "NOUN",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "marqu\u00e9",
+            "lemma": "marquer",
+            "pos": "VERB",
+            "dependencies": "xcomp"
+          },
+          {
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "marqu\u00e9",
+        "lemma": "marquer",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "mort",
+            "lemma": "mort",
+            "pos": "NOUN",
+            "dependencies": "obl:agent"
+          },
+          {
+            "text": "1985",
+            "lemma": "1985",
+            "pos": "NUM",
+            "dependencies": "obl:mod"
+          }
+        ]
+      },
+      {
+        "shape": "par",
+        "lemma": "par",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "mort",
+        "lemma": "mort",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "par",
+            "lemma": "par",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "la",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "violente",
+            "lemma": "violent",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "compagne",
+            "lemma": "compagne",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "violente",
+        "lemma": "violent",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "sa",
+        "lemma": "son",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "compagne",
+        "lemma": "compagne",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "sa",
+            "lemma": "son",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "artiste",
+            "lemma": "artiste",
+            "pos": "NOUN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "l\u2019",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "artiste",
+        "lemma": "artiste",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "l\u2019",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "cubaine",
+            "lemma": "cubain",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "Ana",
+            "lemma": "Ana",
+            "pos": "PROPN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "cubaine",
+        "lemma": "cubain",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "Ana",
+        "lemma": "Ana",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "Mendieta",
+            "lemma": "Mendieta",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          }
+        ]
+      },
+      {
+        "shape": "Mendieta",
+        "lemma": "Mendieta",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "1985",
+        "lemma": "1985",
+        "pos": "NUM",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "en",
+            "lemma": "en",
+            "pos": "ADP",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "Cible",
+        "lemma": "cible",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "f\u00e9ministes",
+            "lemma": "f\u00e9ministe",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "des",
+        "lemma": "un",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "f\u00e9ministes",
+        "lemma": "f\u00e9ministe",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "des",
+            "lemma": "un",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "am\u00e9ricaines",
+            "lemma": "am\u00e9ricain",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "am\u00e9ricaines",
+        "lemma": "am\u00e9ricain",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "il",
+        "lemma": "lui",
+        "pos": "PRON",
+        "dependencies": []
+      },
+      {
+        "shape": "reste",
+        "lemma": "rester",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "Cible",
+            "lemma": "cible",
+            "pos": "NOUN",
+            "dependencies": "advcl"
+          },
+          {
+            "text": "il",
+            "lemma": "lui",
+            "pos": "PRON",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "sujet",
+            "lemma": "sujet",
+            "pos": "NOUN",
+            "dependencies": "xcomp"
+          },
+          {
+            "text": "ans",
+            "lemma": "an",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "24",
+            "lemma": "24",
+            "pos": "NUM",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "New",
+            "lemma": "New",
+            "pos": "PROPN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "un",
+        "lemma": "un",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "sujet",
+        "lemma": "sujet",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "un",
+            "lemma": "un",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "d\u00e9licat",
+            "lemma": "d\u00e9licat",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "mort",
+            "lemma": "mort",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "d\u00e9licat",
+        "lemma": "d\u00e9licat",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "sa",
+        "lemma": "son",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "mort",
+        "lemma": "mort",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "sa",
+            "lemma": "son",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "88",
+        "lemma": "88",
+        "pos": "NUM",
+        "dependencies": []
+      },
+      {
+        "shape": "ans",
+        "lemma": "an",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "88",
+            "lemma": "88",
+            "pos": "NUM",
+            "dependencies": "nummod"
+          }
+        ]
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "24",
+        "lemma": "24",
+        "pos": "NUM",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "janvier",
+            "lemma": "janvier",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "janvier",
+        "lemma": "janvier",
+        "pos": "NOUN",
+        "dependencies": []
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "New",
+        "lemma": "New",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "York",
+            "lemma": "York",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          }
+        ]
+      },
+      {
+        "shape": "York",
+        "lemma": "York",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT",
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/automobile/les-secrets-de-l-autodrome-de-montlhery-la-piste-de-tous-les-records-depuis-100-ans-20240127",
+    "source": "Le Figaro - Automobile.xml",
+    "title": "Les secrets de l'autodrome de Montlh\u00e9ry, la piste de tous les records depuis 100 ans",
+    "description": "Le temple de la vitesse francilien, qui a connu son heure de gloire au cours du XXe si\u00e8cle, f\u00eate son centenaire la semaine prochaine, dans le cadre du salon R\u00e9tromobile.",
+    "date": "2024-01-27",
+    "categories": [
+      "Automobile",
+      "La Une Art de vivre"
+    ],
+    "analysis": [
+      {
+        "shape": "Les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "secrets",
+        "lemma": "secret",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "Les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "autodrome",
+            "lemma": "autodrome",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "piste",
+            "lemma": "piste",
+            "pos": "NOUN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "l'",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "autodrome",
+        "lemma": "autodrome",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "l'",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "Montlh\u00e9ry",
+            "lemma": "Montlh\u00e9ry",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Montlh\u00e9ry",
+        "lemma": "Montlh\u00e9ry",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "piste",
+        "lemma": "piste",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "la",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "records",
+            "lemma": "record",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "ans",
+            "lemma": "an",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "tous",
+        "lemma": "tout",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "records",
+        "lemma": "record",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "tous",
+            "lemma": "tout",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": "depuis",
+        "lemma": "depuis",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "100",
+        "lemma": "100",
+        "pos": "NUM",
+        "dependencies": []
+      },
+      {
+        "shape": "ans",
+        "lemma": "an",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "depuis",
+            "lemma": "depuis",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "100",
+            "lemma": "100",
+            "pos": "NUM",
+            "dependencies": "nummod"
+          }
+        ]
+      },
+      {
+        "shape": "Le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "temple",
+        "lemma": "temple",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "Le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "vitesse",
+            "lemma": "vitesse",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "connu",
+            "lemma": "conna\u00eetre",
+            "pos": "VERB",
+            "dependencies": "acl:relcl"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "vitesse",
+        "lemma": "vitesse",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "la",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "francilien",
+            "lemma": "francilien",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "francilien",
+        "lemma": "francilien",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "qui",
+        "lemma": "qui",
+        "pos": "PRON",
+        "dependencies": []
+      },
+      {
+        "shape": "a",
+        "lemma": "avoir",
+        "pos": "AUX",
+        "dependencies": []
+      },
+      {
+        "shape": "connu",
+        "lemma": "conna\u00eetre",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "qui",
+            "lemma": "qui",
+            "pos": "PRON",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "a",
+            "lemma": "avoir",
+            "pos": "AUX",
+            "dependencies": "aux:tense"
+          },
+          {
+            "text": "heure",
+            "lemma": "heure",
+            "pos": "NOUN",
+            "dependencies": "obj"
+          },
+          {
+            "text": "cours",
+            "lemma": "cours",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "son",
+        "lemma": "son",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "heure",
+        "lemma": "heure",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "son",
+            "lemma": "son",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "gloire",
+            "lemma": "gloire",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "gloire",
+        "lemma": "gloire",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "cours",
+        "lemma": "cours",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "si\u00e8cle",
+            "lemma": "si\u00e8cle",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "XXe",
+        "lemma": "XXe",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "si\u00e8cle",
+        "lemma": "si\u00e8cle",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "XXe",
+            "lemma": "XXe",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "f\u00eate",
+        "lemma": "f\u00eater",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "temple",
+            "lemma": "temple",
+            "pos": "NOUN",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "centenaire",
+            "lemma": "centenaire",
+            "pos": "NOUN",
+            "dependencies": "obj"
+          },
+          {
+            "text": "semaine",
+            "lemma": "semaine",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "cadre",
+            "lemma": "cadre",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "son",
+        "lemma": "son",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "centenaire",
+        "lemma": "centenaire",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "son",
+            "lemma": "son",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "semaine",
+        "lemma": "semaine",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "la",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "prochaine",
+            "lemma": "prochain",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "prochaine",
+        "lemma": "prochain",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "dans",
+        "lemma": "dans",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "cadre",
+        "lemma": "cadre",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "dans",
+            "lemma": "dans",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "salon",
+            "lemma": "salon",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "salon",
+        "lemma": "salon",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "R\u00e9tromobile",
+            "lemma": "R\u00e9tromobile",
+            "pos": "PROPN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "R\u00e9tromobile",
+        "lemma": "R\u00e9tromobile",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT",
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/basket-james-et-okobo-portent-monaco-face-a-chalon-sur-saone-20240128",
+    "source": "Le Figaro - Basket.xml",
+    "title": "Basket : James et Okobo portent Monaco face \u00e0 Chalon-sur-Sa\u00f4ne",
+    "description": "La \u00abRoca Team\u00bb a battu Chalon-sur-Sa\u00f4ne (82-69) dimanche en Betclic Elite gr\u00e2ce \u00e0 son duo Mike James-Elie Okobo.",
+    "date": "2024-01-28",
+    "categories": [
+      "Basket"
+    ],
+    "analysis": [
+      {
+        "shape": "Basket",
+        "lemma": "Basket",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "portent",
+            "lemma": "porter",
+            "pos": "VERB",
+            "dependencies": "parataxis"
+          }
+        ]
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "James",
+        "lemma": "James",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "Okobo",
+            "lemma": "Okobo",
+            "pos": "PROPN",
+            "dependencies": "conj"
+          }
+        ]
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ",
+        "dependencies": []
+      },
+      {
+        "shape": "Okobo",
+        "lemma": "Okobo",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "et",
+            "lemma": "et",
+            "pos": "CCONJ",
+            "dependencies": "cc"
+          }
+        ]
+      },
+      {
+        "shape": "portent",
+        "lemma": "porter",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": ":",
+            "lemma": ":",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "James",
+            "lemma": "James",
+            "pos": "PROPN",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "Monaco",
+            "lemma": "Monaco",
+            "pos": "PROPN",
+            "dependencies": "obj"
+          },
+          {
+            "text": "Chalon-sur-Sa\u00f4ne",
+            "lemma": "Chalon-sur-Sa\u00f4ne",
+            "pos": "PROPN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "battu",
+            "lemma": "battre",
+            "pos": "VERB",
+            "dependencies": "parataxis"
+          },
+          {
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "Monaco",
+        "lemma": "Monaco",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": "face",
+        "lemma": "face",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "fixed"
+          }
+        ]
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Chalon-sur-Sa\u00f4ne",
+        "lemma": "Chalon-sur-Sa\u00f4ne",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "face",
+            "lemma": "face",
+            "pos": "NOUN",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": "La",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "\u00ab",
+        "lemma": "\u00ab",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "Roca",
+        "lemma": "Roca",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "La",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "\u00ab",
+            "lemma": "\u00ab",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "Team\u00bb",
+            "lemma": "Team\u00bb",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          }
+        ]
+      },
+      {
+        "shape": "Team\u00bb",
+        "lemma": "Team\u00bb",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": "a",
+        "lemma": "avoir",
+        "pos": "AUX",
+        "dependencies": []
+      },
+      {
+        "shape": "battu",
+        "lemma": "battre",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "Roca",
+            "lemma": "Roca",
+            "pos": "PROPN",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "a",
+            "lemma": "avoir",
+            "pos": "AUX",
+            "dependencies": "aux:tense"
+          },
+          {
+            "text": "Chalon-sur-Sa\u00f4ne",
+            "lemma": "Chalon-sur-Sa\u00f4ne",
+            "pos": "PROPN",
+            "dependencies": "obj"
+          },
+          {
+            "text": "dimanche",
+            "lemma": "dimanche",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "Betclic",
+            "lemma": "Betclic",
+            "pos": "PROPN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "duo",
+            "lemma": "duo",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          }
+        ]
+      },
+      {
+        "shape": "Chalon-sur-Sa\u00f4ne",
+        "lemma": "Chalon-sur-Sa\u00f4ne",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "82-69",
+            "lemma": "82-69",
+            "pos": "NUM",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "(",
+        "lemma": "(",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "82-69",
+        "lemma": "82-69",
+        "pos": "NUM",
+        "dependencies": [
+          {
+            "text": "(",
+            "lemma": "(",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": ")",
+            "lemma": ")",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": ")",
+        "lemma": ")",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "dimanche",
+        "lemma": "dimanche",
+        "pos": "NOUN",
+        "dependencies": []
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Betclic",
+        "lemma": "Betclic",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "en",
+            "lemma": "en",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "Elite",
+            "lemma": "Elite",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          }
+        ]
+      },
+      {
+        "shape": "Elite",
+        "lemma": "Elite",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": "gr\u00e2ce",
+        "lemma": "gr\u00e2ce",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "fixed"
+          }
+        ]
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "son",
+        "lemma": "son",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "duo",
+        "lemma": "duo",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "gr\u00e2ce",
+            "lemma": "gr\u00e2ce",
+            "pos": "NOUN",
+            "dependencies": "case"
+          },
+          {
+            "text": "son",
+            "lemma": "son",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "Mike",
+            "lemma": "Mike",
+            "pos": "PROPN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "Mike",
+        "lemma": "Mike",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "James-Elie",
+            "lemma": "James-Elie",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          },
+          {
+            "text": "Okobo",
+            "lemma": "Okobo",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          }
+        ]
+      },
+      {
+        "shape": "James-Elie",
+        "lemma": "James-Elie",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": "Okobo",
+        "lemma": "Okobo",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT",
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/nba/nba-289-points-les-lakers-de-james-remportent-un-match-fou-face-aux-warriors-de-curry-20240128",
+    "source": "Le Figaro - Basket.xml",
+    "title": "NBA: 289 points, les Lakers de James remportent un match fou face aux Warriors de Curry",
+    "description": "Un de ces matches qu'il revisionnera \u00abavec ses petits-enfants\u00bb: LeBron James et les Lakers ont battu les Warriors de Stephen Curry 145-144 au bout d'un duel exceptionnel entre les deux stars de la NBA et apr\u00e8s deux prolongations samedi.",
+    "date": "2024-01-28",
+    "categories": [
+      "Basket",
+      "NBA"
+    ],
+    "analysis": [
+      {
+        "shape": "NBA:",
+        "lemma": "nba:",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "289",
+        "lemma": "289",
+        "pos": "NUM",
+        "dependencies": []
+      },
+      {
+        "shape": "points",
+        "lemma": "point",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "NBA:",
+            "lemma": "nba:",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "289",
+            "lemma": "289",
+            "pos": "NUM",
+            "dependencies": "nummod"
+          },
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Lakers",
+        "lemma": "Lakers",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "James",
+            "lemma": "James",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "James",
+        "lemma": "James",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": "remportent",
+        "lemma": "remporter",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "points",
+            "lemma": "point",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "Lakers",
+            "lemma": "Lakers",
+            "pos": "PROPN",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "match",
+            "lemma": "match",
+            "pos": "NOUN",
+            "dependencies": "obj"
+          },
+          {
+            "text": "Warriors",
+            "lemma": "Warriors",
+            "pos": "PROPN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "battu",
+            "lemma": "battre",
+            "pos": "VERB",
+            "dependencies": "parataxis"
+          }
+        ]
+      },
+      {
+        "shape": "un",
+        "lemma": "un",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "match",
+        "lemma": "match",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "un",
+            "lemma": "un",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "fou",
+            "lemma": "fou",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "fou",
+        "lemma": "fou",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "face",
+        "lemma": "face",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "fixed"
+          }
+        ]
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Warriors",
+        "lemma": "Warriors",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "face",
+            "lemma": "face",
+            "pos": "NOUN",
+            "dependencies": "case"
+          },
+          {
+            "text": "les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "Curry",
+            "lemma": "Curry",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "Un",
+            "lemma": "un",
+            "pos": "PRON",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Curry",
+        "lemma": "Curry",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": "Un",
+        "lemma": "un",
+        "pos": "PRON",
+        "dependencies": [
+          {
+            "text": "matches",
+            "lemma": "match",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "ces",
+        "lemma": "ce",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "matches",
+        "lemma": "match",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "ces",
+            "lemma": "ce",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "revisionnera",
+            "lemma": "revisionner",
+            "pos": "VERB",
+            "dependencies": "acl:relcl"
+          }
+        ]
+      },
+      {
+        "shape": "qu'",
+        "lemma": "que",
+        "pos": "PRON",
+        "dependencies": []
+      },
+      {
+        "shape": "il",
+        "lemma": "lui",
+        "pos": "PRON",
+        "dependencies": []
+      },
+      {
+        "shape": "revisionnera",
+        "lemma": "revisionner",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "qu'",
+            "lemma": "que",
+            "pos": "PRON",
+            "dependencies": "obj"
+          },
+          {
+            "text": "il",
+            "lemma": "lui",
+            "pos": "PRON",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "petits-enfants",
+            "lemma": "petit-enfant",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          }
+        ]
+      },
+      {
+        "shape": "\u00ab",
+        "lemma": "\u00ab",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "avec",
+        "lemma": "avec",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "ses",
+        "lemma": "son",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "petits-enfants",
+        "lemma": "petit-enfant",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00ab",
+            "lemma": "\u00ab",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "avec",
+            "lemma": "avec",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "ses",
+            "lemma": "son",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "\u00bb",
+            "lemma": "\u00bb",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "\u00bb",
+        "lemma": "\u00bb",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "LeBron",
+        "lemma": "LeBron",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "James",
+            "lemma": "James",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          },
+          {
+            "text": "Lakers",
+            "lemma": "Lakers",
+            "pos": "PROPN",
+            "dependencies": "conj"
+          }
+        ]
+      },
+      {
+        "shape": "James",
+        "lemma": "James",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ",
+        "dependencies": []
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Lakers",
+        "lemma": "Lakers",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "et",
+            "lemma": "et",
+            "pos": "CCONJ",
+            "dependencies": "cc"
+          },
+          {
+            "text": "les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": "ont",
+        "lemma": "avoir",
+        "pos": "AUX",
+        "dependencies": []
+      },
+      {
+        "shape": "battu",
+        "lemma": "battre",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": ":",
+            "lemma": ":",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "LeBron",
+            "lemma": "LeBron",
+            "pos": "PROPN",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "ont",
+            "lemma": "avoir",
+            "pos": "AUX",
+            "dependencies": "aux:tense"
+          },
+          {
+            "text": "Warriors",
+            "lemma": "Warriors",
+            "pos": "PROPN",
+            "dependencies": "obj"
+          },
+          {
+            "text": "bout",
+            "lemma": "bout",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Warriors",
+        "lemma": "Warriors",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "Stephen",
+            "lemma": "Stephen",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Stephen",
+        "lemma": "Stephen",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "Curry",
+            "lemma": "Curry",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          },
+          {
+            "text": "145-144",
+            "lemma": "145-144",
+            "pos": "NUM",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "Curry",
+        "lemma": "Curry",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": "145-144",
+        "lemma": "145-144",
+        "pos": "NUM",
+        "dependencies": []
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "bout",
+        "lemma": "bout",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "duel",
+            "lemma": "duel",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "d'",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "un",
+        "lemma": "un",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "duel",
+        "lemma": "duel",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "d'",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "un",
+            "lemma": "un",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "exceptionnel",
+            "lemma": "exceptionnel",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "stars",
+            "lemma": "star",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "exceptionnel",
+        "lemma": "exceptionnel",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "entre",
+        "lemma": "entre",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "deux",
+        "lemma": "deux",
+        "pos": "NUM",
+        "dependencies": []
+      },
+      {
+        "shape": "stars",
+        "lemma": "star",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "entre",
+            "lemma": "entre",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "deux",
+            "lemma": "deux",
+            "pos": "NUM",
+            "dependencies": "nummod"
+          },
+          {
+            "text": "NBA",
+            "lemma": "NBA",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "prolongations",
+            "lemma": "prolongation",
+            "pos": "NOUN",
+            "dependencies": "conj"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "NBA",
+        "lemma": "NBA",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "la",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ",
+        "dependencies": []
+      },
+      {
+        "shape": "apr\u00e8s",
+        "lemma": "apr\u00e8s",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "deux",
+        "lemma": "deux",
+        "pos": "NUM",
+        "dependencies": []
+      },
+      {
+        "shape": "prolongations",
+        "lemma": "prolongation",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "et",
+            "lemma": "et",
+            "pos": "CCONJ",
+            "dependencies": "cc"
+          },
+          {
+            "text": "apr\u00e8s",
+            "lemma": "apr\u00e8s",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "deux",
+            "lemma": "deux",
+            "pos": "NUM",
+            "dependencies": "nummod"
+          },
+          {
+            "text": "samedi",
+            "lemma": "samedi",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "samedi",
+        "lemma": "samedi",
+        "pos": "NOUN",
+        "dependencies": []
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT",
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/nba/nba-enorme-coup-pour-wembanyama-et-les-spurs-vainqueurs-au-bout-du-suspense-face-aux-wolves-de-gobert-20240128",
+    "source": "Le Figaro - Basket.xml",
+    "title": "NBA : \u00e9norme coup pour Wembanyama et les Spurs, vainqueurs au bout du suspense face aux Wolves de Gobert",
+    "description": "Deuxi\u00e8me victoire en deux jours pour San Antonio, un succ\u00e8s de prestige sur le parquet de Minnesota (112-113).",
+    "date": "2024-01-28",
+    "categories": [
+      "Basket",
+      "NBA"
+    ],
+    "analysis": [
+      {
+        "shape": "NBA",
+        "lemma": "NBA",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "coup",
+            "lemma": "coup",
+            "pos": "NOUN",
+            "dependencies": "appos"
+          },
+          {
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "\u00e9norme",
+        "lemma": "\u00e9norme",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "coup",
+        "lemma": "coup",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ":",
+            "lemma": ":",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "\u00e9norme",
+            "lemma": "\u00e9norme",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "Wembanyama",
+            "lemma": "Wembanyama",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "vainqueurs",
+            "lemma": "vainqueur",
+            "pos": "VERB",
+            "dependencies": "acl"
+          }
+        ]
+      },
+      {
+        "shape": "pour",
+        "lemma": "pour",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Wembanyama",
+        "lemma": "Wembanyama",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "pour",
+            "lemma": "pour",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "Spurs",
+            "lemma": "Spurs",
+            "pos": "PROPN",
+            "dependencies": "conj"
+          }
+        ]
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ",
+        "dependencies": []
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Spurs",
+        "lemma": "Spurs",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "et",
+            "lemma": "et",
+            "pos": "CCONJ",
+            "dependencies": "cc"
+          },
+          {
+            "text": "les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "vainqueurs",
+        "lemma": "vainqueur",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "bout",
+            "lemma": "bout",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "Wolves",
+            "lemma": "Wolves",
+            "pos": "PROPN",
+            "dependencies": "obl:mod"
+          }
+        ]
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "bout",
+        "lemma": "bout",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "suspense",
+            "lemma": "suspense",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "suspense",
+        "lemma": "suspense",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": "face",
+        "lemma": "face",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "fixed"
+          }
+        ]
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Wolves",
+        "lemma": "Wolves",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "face",
+            "lemma": "face",
+            "pos": "NOUN",
+            "dependencies": "case"
+          },
+          {
+            "text": "les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "Gobert",
+            "lemma": "Gobert",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "victoire",
+            "lemma": "victoire",
+            "pos": "NOUN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Gobert",
+        "lemma": "Gobert",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": "Deuxi\u00e8me",
+        "lemma": "deuxi\u00e8me",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "victoire",
+        "lemma": "victoire",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "Deuxi\u00e8me",
+            "lemma": "deuxi\u00e8me",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "jours",
+            "lemma": "jour",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "San",
+            "lemma": "San",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "succ\u00e8s",
+            "lemma": "succ\u00e8s",
+            "pos": "NOUN",
+            "dependencies": "conj"
+          }
+        ]
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "deux",
+        "lemma": "deux",
+        "pos": "NUM",
+        "dependencies": []
+      },
+      {
+        "shape": "jours",
+        "lemma": "jour",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "en",
+            "lemma": "en",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "deux",
+            "lemma": "deux",
+            "pos": "NUM",
+            "dependencies": "nummod"
+          }
+        ]
+      },
+      {
+        "shape": "pour",
+        "lemma": "pour",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "San",
+        "lemma": "San",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "pour",
+            "lemma": "pour",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "Antonio",
+            "lemma": "Antonio",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          }
+        ]
+      },
+      {
+        "shape": "Antonio",
+        "lemma": "Antonio",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "un",
+        "lemma": "un",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "succ\u00e8s",
+        "lemma": "succ\u00e8s",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "un",
+            "lemma": "un",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "prestige",
+            "lemma": "prestige",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "parquet",
+            "lemma": "parquet",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "112-113",
+            "lemma": "112-113",
+            "pos": "NUM",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "prestige",
+        "lemma": "prestige",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": "sur",
+        "lemma": "sur",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "parquet",
+        "lemma": "parquet",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "sur",
+            "lemma": "sur",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "Minnesota",
+            "lemma": "Minnesota",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Minnesota",
+        "lemma": "Minnesota",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": "(",
+        "lemma": "(",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "112-113",
+        "lemma": "112-113",
+        "pos": "NUM",
+        "dependencies": [
+          {
+            "text": "(",
+            "lemma": "(",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": ")",
+            "lemma": ")",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": ")",
+        "lemma": ")",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT",
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/nba/nba-trouver-notre-identite-de-jeu-les-premiers-mots-de-doc-rivers-nouveau-coach-des-bucks-20240127",
+    "source": "Le Figaro - Basket.xml",
+    "title": "NBA : \u00abTrouver notre identit\u00e9 de jeu\u00bb, les premiers mots de Doc Rivers, nouveau coach des Bucks",
+    "description": "Ce samedi, Doc Rivers s\u2019est exprim\u00e9 pour la premi\u00e8re fois avec son nouveau club.",
+    "date": "2024-01-27",
+    "categories": [
+      "Basket",
+      "NBA"
+    ],
+    "analysis": [
+      {
+        "shape": "NBA",
+        "lemma": "NBA",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "Trouver",
+            "lemma": "trouver",
+            "pos": "VERB",
+            "dependencies": "parataxis"
+          },
+          {
+            "text": "mots",
+            "lemma": "mot",
+            "pos": "NOUN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "\u00ab",
+        "lemma": "\u00ab",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "Trouver",
+        "lemma": "trouver",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": ":",
+            "lemma": ":",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "\u00ab",
+            "lemma": "\u00ab",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "identit\u00e9",
+            "lemma": "identit\u00e9",
+            "pos": "NOUN",
+            "dependencies": "obj"
+          },
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "notre",
+        "lemma": "son",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "identit\u00e9",
+        "lemma": "identit\u00e9",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "notre",
+            "lemma": "son",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "jeu\u00bb",
+            "lemma": "jeu\u00bb",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "jeu\u00bb",
+        "lemma": "jeu\u00bb",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "premiers",
+        "lemma": "premier",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "mots",
+        "lemma": "mot",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "premiers",
+            "lemma": "premier",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "Doc",
+            "lemma": "Doc",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Doc",
+        "lemma": "Doc",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "Rivers",
+            "lemma": "Rivers",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          },
+          {
+            "text": "coach",
+            "lemma": "coach",
+            "pos": "NOUN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "Rivers",
+        "lemma": "Rivers",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "nouveau",
+        "lemma": "nouveau",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "coach",
+        "lemma": "coach",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "nouveau",
+            "lemma": "nouveau",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "Bucks",
+            "lemma": "Bucks",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Bucks",
+        "lemma": "Bucks",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": "Ce",
+        "lemma": "ce",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "samedi",
+        "lemma": "samedi",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "Ce",
+            "lemma": "ce",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "Doc",
+        "lemma": "Doc",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "Rivers",
+            "lemma": "Rivers",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          }
+        ]
+      },
+      {
+        "shape": "Rivers",
+        "lemma": "Rivers",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": "s\u2019",
+        "lemma": "soi",
+        "pos": "PRON",
+        "dependencies": []
+      },
+      {
+        "shape": "est",
+        "lemma": "\u00eatre",
+        "pos": "AUX",
+        "dependencies": []
+      },
+      {
+        "shape": "exprim\u00e9",
+        "lemma": "exprimer",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "samedi",
+            "lemma": "samedi",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "Doc",
+            "lemma": "Doc",
+            "pos": "PROPN",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "s\u2019",
+            "lemma": "soi",
+            "pos": "PRON",
+            "dependencies": "expl:pv"
+          },
+          {
+            "text": "est",
+            "lemma": "\u00eatre",
+            "pos": "AUX",
+            "dependencies": "aux:tense"
+          },
+          {
+            "text": "fois",
+            "lemma": "fois",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "club",
+            "lemma": "club",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "pour",
+        "lemma": "pour",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "premi\u00e8re",
+        "lemma": "premier",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "fois",
+        "lemma": "fois",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "pour",
+            "lemma": "pour",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "la",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "premi\u00e8re",
+            "lemma": "premier",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "avec",
+        "lemma": "avec",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "son",
+        "lemma": "son",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "nouveau",
+        "lemma": "nouveau",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "club",
+        "lemma": "club",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "avec",
+            "lemma": "avec",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "son",
+            "lemma": "son",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "nouveau",
+            "lemma": "nouveau",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT",
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/basket-paris-encore-battu-face-a-strasbourg-20240127",
+    "source": "Le Figaro - Basket.xml",
+    "title": "Basket : Paris encore battu face \u00e0 Strasbourg",
+    "description": "Les Parisiens une deuxi\u00e8me d\u00e9faite de suite ce samedi face \u00e0 Strasbourg (89-86).",
+    "date": "2024-01-27",
+    "categories": [
+      "Basket"
+    ],
+    "analysis": [
+      {
+        "shape": "Basket",
+        "lemma": "Basket",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "Paris",
+            "lemma": "Paris",
+            "pos": "PROPN",
+            "dependencies": "appos"
+          },
+          {
+            "text": "89-86",
+            "lemma": "89-86",
+            "pos": "NUM",
+            "dependencies": "nmod"
+          },
+          {
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "Paris",
+        "lemma": "Paris",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": ":",
+            "lemma": ":",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "encore",
+            "lemma": "encore",
+            "pos": "ADV",
+            "dependencies": "advmod"
+          },
+          {
+            "text": "battu",
+            "lemma": "battre",
+            "pos": "VERB",
+            "dependencies": "acl"
+          }
+        ]
+      },
+      {
+        "shape": "encore",
+        "lemma": "encore",
+        "pos": "ADV",
+        "dependencies": []
+      },
+      {
+        "shape": "battu",
+        "lemma": "battre",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "Strasbourg",
+            "lemma": "Strasbourg",
+            "pos": "PROPN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "Parisiens",
+            "lemma": "Parisiens",
+            "pos": "PROPN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "d\u00e9faite",
+            "lemma": "d\u00e9faite",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "samedi",
+            "lemma": "samedi",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          }
+        ]
+      },
+      {
+        "shape": "face",
+        "lemma": "face",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "fixed"
+          }
+        ]
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Strasbourg",
+        "lemma": "Strasbourg",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "face",
+            "lemma": "face",
+            "pos": "NOUN",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": "Les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Parisiens",
+        "lemma": "Parisiens",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "Les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": "une",
+        "lemma": "un",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "deuxi\u00e8me",
+        "lemma": "deuxi\u00e8me",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "d\u00e9faite",
+        "lemma": "d\u00e9faite",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "une",
+            "lemma": "un",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "deuxi\u00e8me",
+            "lemma": "deuxi\u00e8me",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "suite",
+            "lemma": "suite",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "Strasbourg",
+            "lemma": "Strasbourg",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "suite",
+        "lemma": "suite",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": "ce",
+        "lemma": "ce",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "samedi",
+        "lemma": "samedi",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "ce",
+            "lemma": "ce",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": "face",
+        "lemma": "face",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "fixed"
+          }
+        ]
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Strasbourg",
+        "lemma": "Strasbourg",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "face",
+            "lemma": "face",
+            "pos": "NOUN",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": "(",
+        "lemma": "(",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "89-86",
+        "lemma": "89-86",
+        "pos": "NUM",
+        "dependencies": [
+          {
+            "text": "(",
+            "lemma": "(",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": ")",
+            "lemma": ")",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": ")",
+        "lemma": ")",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT",
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/basket-le-csp-limoges-en-plein-chaos-20240127",
+    "source": "Le Figaro - Basket.xml",
+    "title": "Basket: le CSP Limoges, monument du basket fran\u00e7ais, en plein chaos",
+    "description": "Le monument du basket fran\u00e7ais, sanctionn\u00e9 pour probl\u00e8mes financiers, vient de voir partir son entra\u00eeneur et de limoger son directeur sportif, une situation de plus en plus mal v\u00e9cue par joueurs et supporters.",
+    "date": "2024-01-27",
+    "categories": [
+      "Basket"
+    ],
+    "analysis": [
+      {
+        "shape": "Basket",
+        "lemma": "Basket",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "CSP",
+            "lemma": "CSP",
+            "pos": "PROPN",
+            "dependencies": "appos"
+          },
+          {
+            "text": "chaos",
+            "lemma": "chaos",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "CSP",
+        "lemma": "CSP",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": ":",
+            "lemma": ":",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "Limoges",
+            "lemma": "Limoges",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          },
+          {
+            "text": "monument",
+            "lemma": "monument",
+            "pos": "NOUN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "Limoges",
+        "lemma": "Limoges",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "monument",
+        "lemma": "monument",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "basket",
+            "lemma": "basket",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "basket",
+        "lemma": "basket",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "fran\u00e7ais",
+            "lemma": "fran\u00e7ais",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "fran\u00e7ais",
+        "lemma": "fran\u00e7ais",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "plein",
+        "lemma": "plein",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "chaos",
+        "lemma": "chaos",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "en",
+            "lemma": "en",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "plein",
+            "lemma": "plein",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "Le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "monument",
+        "lemma": "monument",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "Le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "basket",
+            "lemma": "basket",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "sanctionn\u00e9",
+            "lemma": "sanctionner",
+            "pos": "VERB",
+            "dependencies": "acl"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "basket",
+        "lemma": "basket",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "fran\u00e7ais",
+            "lemma": "fran\u00e7ais",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "fran\u00e7ais",
+        "lemma": "fran\u00e7ais",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "sanctionn\u00e9",
+        "lemma": "sanctionner",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "probl\u00e8mes",
+            "lemma": "probl\u00e8me",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "pour",
+        "lemma": "pour",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "probl\u00e8mes",
+        "lemma": "probl\u00e8me",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "pour",
+            "lemma": "pour",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "financiers",
+            "lemma": "financier",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "financiers",
+        "lemma": "financier",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "vient",
+        "lemma": "venir",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "monument",
+            "lemma": "monument",
+            "pos": "NOUN",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "partir",
+            "lemma": "partir",
+            "pos": "VERB",
+            "dependencies": "xcomp"
+          },
+          {
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "voir",
+        "lemma": "voir",
+        "pos": "AUX",
+        "dependencies": []
+      },
+      {
+        "shape": "partir",
+        "lemma": "partir",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "mark"
+          },
+          {
+            "text": "voir",
+            "lemma": "voir",
+            "pos": "AUX",
+            "dependencies": "aux:caus"
+          },
+          {
+            "text": "entra\u00eeneur",
+            "lemma": "entra\u00eeneur",
+            "pos": "NOUN",
+            "dependencies": "obj"
+          },
+          {
+            "text": "limoger",
+            "lemma": "limoger",
+            "pos": "VERB",
+            "dependencies": "conj"
+          }
+        ]
+      },
+      {
+        "shape": "son",
+        "lemma": "son",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "entra\u00eeneur",
+        "lemma": "entra\u00eeneur",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "son",
+            "lemma": "son",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ",
+        "dependencies": []
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "limoger",
+        "lemma": "limoger",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "et",
+            "lemma": "et",
+            "pos": "CCONJ",
+            "dependencies": "cc"
+          },
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "mark"
+          },
+          {
+            "text": "directeur",
+            "lemma": "directeur",
+            "pos": "NOUN",
+            "dependencies": "obj"
+          }
+        ]
+      },
+      {
+        "shape": "son",
+        "lemma": "son",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "directeur",
+        "lemma": "directeur",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "son",
+            "lemma": "son",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "sportif",
+            "lemma": "sportif",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "situation",
+            "lemma": "situation",
+            "pos": "NOUN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "sportif",
+        "lemma": "sportif",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "une",
+        "lemma": "un",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "situation",
+        "lemma": "situation",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "une",
+            "lemma": "un",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "v\u00e9cue",
+            "lemma": "vivre",
+            "pos": "VERB",
+            "dependencies": "acl"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": [
+          {
+            "text": "plus",
+            "lemma": "plus",
+            "pos": "ADV",
+            "dependencies": "fixed"
+          },
+          {
+            "text": "en",
+            "lemma": "en",
+            "pos": "ADP",
+            "dependencies": "fixed"
+          },
+          {
+            "text": "plus",
+            "lemma": "plus",
+            "pos": "ADV",
+            "dependencies": "fixed"
+          }
+        ]
+      },
+      {
+        "shape": "plus",
+        "lemma": "plus",
+        "pos": "ADV",
+        "dependencies": []
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "plus",
+        "lemma": "plus",
+        "pos": "ADV",
+        "dependencies": []
+      },
+      {
+        "shape": "mal",
+        "lemma": "mal",
+        "pos": "ADV",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "advmod"
+          }
+        ]
+      },
+      {
+        "shape": "v\u00e9cue",
+        "lemma": "vivre",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "mal",
+            "lemma": "mal",
+            "pos": "ADV",
+            "dependencies": "advmod"
+          },
+          {
+            "text": "joueurs",
+            "lemma": "joueur",
+            "pos": "NOUN",
+            "dependencies": "obl:agent"
+          }
+        ]
+      },
+      {
+        "shape": "par",
+        "lemma": "par",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "joueurs",
+        "lemma": "joueur",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "par",
+            "lemma": "par",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "supporters",
+            "lemma": "supporter",
+            "pos": "NOUN",
+            "dependencies": "conj"
+          }
+        ]
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ",
+        "dependencies": []
+      },
+      {
+        "shape": "supporters",
+        "lemma": "supporter",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "et",
+            "lemma": "et",
+            "pos": "CCONJ",
+            "dependencies": "cc"
+          }
+        ]
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT",
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/nba/nba-73-points-pour-un-doncic-historique-booker-prend-feu-en-vain-wembanama-et-les-spurs-convaincants-20240127",
+    "source": "Le Figaro - Basket.xml",
+    "title": "NBA : 73 points pour un Doncic historique, Booker prend feu en vain, Wembanama et les Spurs convaincants",
+    "description": "L'arri\u00e8re slov\u00e8ne de Dallas s'est fendu de 73 points face \u00e0 Atlanta la nuit pass\u00e9e, r\u00e9alisant ainsi la quatri\u00e8me performance de toute l'histoire de la NBA.",
+    "date": "2024-01-27",
+    "categories": [
+      "Basket",
+      "NBA"
+    ],
+    "analysis": [
+      {
+        "shape": "NBA",
+        "lemma": "NBA",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "points",
+            "lemma": "point",
+            "pos": "NOUN",
+            "dependencies": "parataxis"
+          },
+          {
+            "text": "prend",
+            "lemma": "prendre",
+            "pos": "VERB",
+            "dependencies": "parataxis"
+          }
+        ]
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "73",
+        "lemma": "73",
+        "pos": "NUM",
+        "dependencies": []
+      },
+      {
+        "shape": "points",
+        "lemma": "point",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ":",
+            "lemma": ":",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "73",
+            "lemma": "73",
+            "pos": "NUM",
+            "dependencies": "nummod"
+          },
+          {
+            "text": "Doncic",
+            "lemma": "Doncic",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "pour",
+        "lemma": "pour",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "un",
+        "lemma": "un",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Doncic",
+        "lemma": "Doncic",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "pour",
+            "lemma": "pour",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "un",
+            "lemma": "un",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "historique",
+            "lemma": "historique",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "historique",
+        "lemma": "historique",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "Booker",
+        "lemma": "Booker",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": "prend",
+        "lemma": "prendre",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "Booker",
+            "lemma": "Booker",
+            "pos": "PROPN",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "feu",
+            "lemma": "feu",
+            "pos": "NOUN",
+            "dependencies": "obj:lvc"
+          },
+          {
+            "text": "en",
+            "lemma": "en",
+            "pos": "ADP",
+            "dependencies": "advmod"
+          },
+          {
+            "text": "Wembanama",
+            "lemma": "Wembanama",
+            "pos": "PROPN",
+            "dependencies": "conj"
+          }
+        ]
+      },
+      {
+        "shape": "feu",
+        "lemma": "feu",
+        "pos": "NOUN",
+        "dependencies": []
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP",
+        "dependencies": [
+          {
+            "text": "vain",
+            "lemma": "vain",
+            "pos": "ADJ",
+            "dependencies": "fixed"
+          }
+        ]
+      },
+      {
+        "shape": "vain",
+        "lemma": "vain",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "Wembanama",
+        "lemma": "Wembanama",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "Spurs",
+            "lemma": "Spurs",
+            "pos": "PROPN",
+            "dependencies": "conj"
+          }
+        ]
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ",
+        "dependencies": []
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Spurs",
+        "lemma": "Spurs",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "et",
+            "lemma": "et",
+            "pos": "CCONJ",
+            "dependencies": "cc"
+          },
+          {
+            "text": "les",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "convaincants",
+            "lemma": "convaincant",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "convaincants",
+        "lemma": "convaincant",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "L'",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "arri\u00e8re",
+        "lemma": "arri\u00e8re",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "L'",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "slov\u00e8ne",
+            "lemma": "slov\u00e8ne",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "Dallas",
+            "lemma": "Dallas",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "slov\u00e8ne",
+        "lemma": "slov\u00e8ne",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Dallas",
+        "lemma": "Dallas",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": "s'",
+        "lemma": "soi",
+        "pos": "PRON",
+        "dependencies": []
+      },
+      {
+        "shape": "est",
+        "lemma": "\u00eatre",
+        "pos": "AUX",
+        "dependencies": []
+      },
+      {
+        "shape": "fendu",
+        "lemma": "fendre",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "arri\u00e8re",
+            "lemma": "arri\u00e8re",
+            "pos": "NOUN",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "s'",
+            "lemma": "soi",
+            "pos": "PRON",
+            "dependencies": "expl:pv"
+          },
+          {
+            "text": "est",
+            "lemma": "\u00eatre",
+            "pos": "AUX",
+            "dependencies": "aux:tense"
+          },
+          {
+            "text": "points",
+            "lemma": "point",
+            "pos": "NOUN",
+            "dependencies": "obl:arg"
+          },
+          {
+            "text": "Atlanta",
+            "lemma": "Atlanta",
+            "pos": "PROPN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "nuit",
+            "lemma": "nuit",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": "r\u00e9alisant",
+            "lemma": "r\u00e9aliser",
+            "pos": "VERB",
+            "dependencies": "advcl"
+          },
+          {
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "73",
+        "lemma": "73",
+        "pos": "NUM",
+        "dependencies": []
+      },
+      {
+        "shape": "points",
+        "lemma": "point",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "73",
+            "lemma": "73",
+            "pos": "NUM",
+            "dependencies": "nummod"
+          }
+        ]
+      },
+      {
+        "shape": "face",
+        "lemma": "face",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "fixed"
+          }
+        ]
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "Atlanta",
+        "lemma": "Atlanta",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "face",
+            "lemma": "face",
+            "pos": "NOUN",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "nuit",
+        "lemma": "nuit",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "la",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "pass\u00e9e",
+            "lemma": "passer",
+            "pos": "VERB",
+            "dependencies": "acl"
+          }
+        ]
+      },
+      {
+        "shape": "pass\u00e9e",
+        "lemma": "passer",
+        "pos": "VERB",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "r\u00e9alisant",
+        "lemma": "r\u00e9aliser",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "ainsi",
+            "lemma": "ainsi",
+            "pos": "ADV",
+            "dependencies": "advmod"
+          },
+          {
+            "text": "performance",
+            "lemma": "performance",
+            "pos": "NOUN",
+            "dependencies": "obj"
+          }
+        ]
+      },
+      {
+        "shape": "ainsi",
+        "lemma": "ainsi",
+        "pos": "ADV",
+        "dependencies": []
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "quatri\u00e8me",
+        "lemma": "quatri\u00e8me",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "performance",
+        "lemma": "performance",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "la",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "quatri\u00e8me",
+            "lemma": "quatri\u00e8me",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "histoire",
+            "lemma": "histoire",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "toute",
+        "lemma": "tout",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "l'",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "histoire",
+        "lemma": "histoire",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "toute",
+            "lemma": "tout",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "l'",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "NBA",
+            "lemma": "NBA",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "NBA",
+        "lemma": "NBA",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "la",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          }
+        ]
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT",
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/cinema/festival-de-gerardmer-sleep-un-grand-prix-qui-empeche-de-dormir-20240128",
+    "source": "Le Figaro - Cinema.xml",
+    "title": "Festival de G\u00e9rardmer : Sleep, un Grand Prix qui emp\u00eache de dormir",
+    "description": "Le premier film du Sud-cor\u00e9en Jason Yu, en salles le 21 f\u00e9vrier, triomphe au Festival international du film fantastique.",
+    "date": "2024-01-28",
+    "categories": [
+      "Cin\u00e9ma",
+      "Culture"
+    ],
+    "analysis": [
+      {
+        "shape": "Festival",
+        "lemma": "festival",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "G\u00e9rardmer",
+            "lemma": "G\u00e9rardmer",
+            "pos": "PROPN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "Sleep",
+            "lemma": "Sleep",
+            "pos": "PROPN",
+            "dependencies": "appos"
+          },
+          {
+            "text": "Prix",
+            "lemma": "prix",
+            "pos": "NOUN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "G\u00e9rardmer",
+        "lemma": "G\u00e9rardmer",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          }
+        ]
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "Sleep",
+        "lemma": "Sleep",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": ":",
+            "lemma": ":",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "un",
+        "lemma": "un",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Grand",
+        "lemma": "grand",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "Prix",
+        "lemma": "prix",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "un",
+            "lemma": "un",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "Grand",
+            "lemma": "grand",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "emp\u00eache",
+            "lemma": "emp\u00eacher",
+            "pos": "VERB",
+            "dependencies": "acl:relcl"
+          }
+        ]
+      },
+      {
+        "shape": "qui",
+        "lemma": "qui",
+        "pos": "PRON",
+        "dependencies": []
+      },
+      {
+        "shape": "emp\u00eache",
+        "lemma": "emp\u00eacher",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "qui",
+            "lemma": "qui",
+            "pos": "PRON",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "dormir",
+            "lemma": "dormir",
+            "pos": "VERB",
+            "dependencies": "xcomp"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "dormir",
+        "lemma": "dormir",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "mark"
+          }
+        ]
+      },
+      {
+        "shape": "Le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "premier",
+        "lemma": "premier",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "film",
+        "lemma": "film",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "Le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "premier",
+            "lemma": "premier",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "Sud-cor\u00e9en",
+            "lemma": "sud-cor\u00e9en",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          },
+          {
+            "text": "salles",
+            "lemma": "salle",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Sud-cor\u00e9en",
+        "lemma": "sud-cor\u00e9en",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "Jason",
+            "lemma": "Jason",
+            "pos": "PROPN",
+            "dependencies": "appos"
+          }
+        ]
+      },
+      {
+        "shape": "Jason",
+        "lemma": "Jason",
+        "pos": "PROPN",
+        "dependencies": [
+          {
+            "text": "Yu",
+            "lemma": "Yu",
+            "pos": "PROPN",
+            "dependencies": "flat:name"
+          }
+        ]
+      },
+      {
+        "shape": "Yu",
+        "lemma": "Yu",
+        "pos": "PROPN",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "salles",
+        "lemma": "salle",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          },
+          {
+            "text": "en",
+            "lemma": "en",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "21",
+            "lemma": "21",
+            "pos": "NUM",
+            "dependencies": "nmod"
+          },
+          {
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "21",
+        "lemma": "21",
+        "pos": "NUM",
+        "dependencies": [
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "f\u00e9vrier",
+            "lemma": "f\u00e9vrier",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "f\u00e9vrier",
+        "lemma": "f\u00e9vrier",
+        "pos": "NOUN",
+        "dependencies": []
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT",
+        "dependencies": []
+      },
+      {
+        "shape": "triomphe",
+        "lemma": "triomphe",
+        "pos": "VERB",
+        "dependencies": [
+          {
+            "text": "film",
+            "lemma": "film",
+            "pos": "NOUN",
+            "dependencies": "nsubj"
+          },
+          {
+            "text": "Festival",
+            "lemma": "festival",
+            "pos": "NOUN",
+            "dependencies": "obl:mod"
+          },
+          {
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "dependencies": "punct"
+          }
+        ]
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "Festival",
+        "lemma": "festival",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "\u00e0",
+            "lemma": "\u00e0",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "international",
+            "lemma": "international",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          },
+          {
+            "text": "film",
+            "lemma": "film",
+            "pos": "NOUN",
+            "dependencies": "nmod"
+          }
+        ]
+      },
+      {
+        "shape": "international",
+        "lemma": "international",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP",
+        "dependencies": []
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET",
+        "dependencies": []
+      },
+      {
+        "shape": "film",
+        "lemma": "film",
+        "pos": "NOUN",
+        "dependencies": [
+          {
+            "text": "de",
+            "lemma": "de",
+            "pos": "ADP",
+            "dependencies": "case"
+          },
+          {
+            "text": "le",
+            "lemma": "le",
+            "pos": "DET",
+            "dependencies": "det"
+          },
+          {
+            "text": "fantastique",
+            "lemma": "fantastique",
+            "pos": "ADJ",
+            "dependencies": "amod"
+          }
+        ]
+      },
+      {
+        "shape": "fantastique",
+        "lemma": "fantastique",
+        "pos": "ADJ",
+        "dependencies": []
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT",
+        "dependencies": []
+      }
+    ]
+  }
+]
