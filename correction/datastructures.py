@@ -1,11 +1,12 @@
 from dataclasses import dataclass, asdict, field
 from xml.etree import ElementTree as ET
 from pathlib import Path
-from typing import Optional
+from typing import Optional, IO
 
 import datetime
 import json
 import pickle
+import sys
 
 from dateutil import parser as dateparser
 
@@ -42,9 +43,12 @@ class Corpus:
 @dataclass(frozen=True)
 class Match:
     rule: str
-    lemmes: tuple[str]
+    lemmes: tuple[str, ...]
+    pos: tuple[str, ...]
+    relation: str
 
-def save_xml(corpus : Corpus, output_file: Path) -> None:
+
+def save_xml(corpus : Corpus, output_file: Optional[Path]) -> None:
     root = ET.Element("corpus")
     for item in corpus.items:
         item_e = ET.SubElement(root, "item")
@@ -78,14 +82,23 @@ def save_xml(corpus : Corpus, output_file: Path) -> None:
                 shape_e = ET.SubElement(token_e, "shape").text = token.shape
                 lemma_e = ET.SubElement(token_e, "lemma").text = token.lemma
                 pos_e = ET.SubElement(token_e, "pos").text = token.pos
+                pos_e = ET.SubElement(token_e, "dep").text = token.dep
+                pos_e = ET.SubElement(token_e, "gov").text = str(token.gov)
 
     tree = ET.ElementTree(root)
     ET.indent(tree)  # for pretty printing
-    tree.write(output_file, encoding="utf-8", xml_declaration=True)
+    if output_file:
+        tree.write(output_file, encoding="utf-8", xml_declaration=True)
+    else:
+        tree.write(sys.stdout, encoding="unicode", xml_declaration=True)
 
 
-def load_xml(input_file: Path) -> Corpus:
-    root = ET.parse(input_file)
+def load_xml(input_file: Optional[Path]) -> Corpus:
+    if input_file:
+        root = ET.parse(input_file)
+    else:
+        root = ET.parse(sys.stdin)
+
     corpus = Corpus([])
 
     for item in list(root.getroot()):
@@ -120,7 +133,7 @@ def load_xml(input_file: Path) -> Corpus:
     return corpus
 
 
-def save_json(corpus : Corpus, output_file: Path) -> None:
+def save_json(corpus : Corpus, output_file: Optional[Path]) -> None:
     data = []
     for item in corpus.items:
         the_date = None
@@ -138,14 +151,16 @@ def save_json(corpus : Corpus, output_file: Path) -> None:
         }
         data.append(current)
 
-    with open(output_file, "w") as output_stream:
-        json.dump(data, output_stream, indent=2)
+    if output_file:
+        with open(output_file, "w") as output_stream:
+            json.dump(data, output_stream, indent=2)
+    else:
+        json.dump(data, sys.stdout, indent=2)
 
 
-def load_json(input_file: Path) -> Corpus:
-    corpus = Corpus([])
-    with open(input_file, "rb") as input_stream:
-        corpus.items = [
+def load_json(input_file: Optional[Path]) -> Corpus:
+    def from_stream(input_stream: IO) -> list[Item]:
+        return [
             Item(
                 id=it["id"], 
                 source=it["source"],
@@ -154,24 +169,41 @@ def load_json(input_file: Path) -> Corpus:
                 date=it["date"] and datetime.date.fromisoformat(it["date"]),  # voir main.py pour syntaxe
                 categories=set(it["categories"]),
                 analysis = [
-                    [ Token(token["shape"], token["lemma"], token["pos"], token["dep"], token["gov"])
-                    for token in sentence ]
+                    [
+                        Token(token["shape"], token["lemma"], token["pos"], token["dep"], token["gov"])
+                        for token in sentence
+                    ]
                     for sentence in it.get("analysis",[]) 
                 ]
             )
             for it in json.load(input_stream)
         ]
+
+    corpus = Corpus([])
+    if input_file:
+        with open(input_file, "rb") as input_stream:
+            corpus.items = from_stream(input_stream)
+    else:
+        corpus.items = from_stream(sys.stdin)
+
     return corpus
 
 
-def save_pickle(corpus : Corpus, output_file: Path) -> None:
-    with open(output_file, "wb") as output_stream:
-        pickle.dump(corpus, output_stream)
+def save_pickle(corpus : Corpus, output_file: Optional[Path]) -> None:
+    if output_file:
+        with open(output_file, "wb") as output_stream:
+            pickle.dump(corpus, output_stream)
+    else:
+        pickle.dump(corpus, sys.stdout.buffer)
+        sys.stdout.flush()
 
 
-def load_pickle(input_file: Path) -> Corpus:
-    with open(input_file, "rb") as input_stream:
-        return pickle.load(input_stream)
+def load_pickle(input_file: Optional[Path]) -> Corpus:
+    if input_file:
+        with open(input_file, "rb") as input_stream:
+            return pickle.load(input_stream)
+    else:
+        return pickle.load(sys.stdin.buffer)
 
 
 name2saver = {

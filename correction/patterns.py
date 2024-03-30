@@ -1,6 +1,6 @@
 from datastructures import Token, Item, Match, name2loader, name2saver
 
-from collections import Counter
+from collections import Counter, defaultdict
 
 
 def pat_noun(sentence: list[Token]) -> list[Match]:
@@ -8,7 +8,7 @@ def pat_noun(sentence: list[Token]) -> list[Match]:
     results = []
     for token in sentence:
         if token.pos == "NOUN":
-            results.append(Match(rule_name, (token.lemma,)))
+            results.append(Match(rule_name, (token.lemma,), (token.pos,), ""))
     return results
 
 
@@ -22,8 +22,11 @@ def pat_verb_obj_noun(sentence: list[Token]) -> list[Match]:
                 head_i = token.gov
                 for i, head in enumerate(sentence):
                     if i == head_i and head.pos == "VERB":
-                        results.append(Match(rule_name, (head.lemma, token.lemma)))
+                        results.append(Match(rule_name, (head.lemma, token.lemma), (head.pos, token.pos), token.dep))
     return results
+
+
+
 
 def simple_rel(rule_name: str,
                pos1: str,
@@ -38,16 +41,79 @@ def simple_rel(rule_name: str,
                     if head_i < len(sentence):
                         head = sentence[head_i]
                         if head.pos == pos1:
-                            results.append(Match(rule_name, (head.lemma, token.lemma)))
+                            results.append(Match(rule_name, (head.lemma, token.lemma), (head.pos, token.pos), token.dep))
         return results
     return pat
 
-  
+def not_so_simple_rel(rule_name: str,
+               pos1: str,
+               deprel: str,
+               pos2: str
+               ):
+    def pat(sentence: list[Token]) -> list[Match]:
+        results = []
+        for i, token in enumerate(sentence):
+            if token.pos == pos2 and token.dep == deprel:
+                head_i = token.gov
+                children = get_children(i, sentence)
+                if not "mark" in children and not "case" in children:
+                    if head_i < len(sentence):
+                        head = sentence[head_i]
+                        if head.pos == pos1:
+                            results.append(Match(rule_name, (head.lemma, token.lemma), (head.pos, token.pos), token.dep))
+        return results
+    return pat
+
+def marked_rel(rule_name, pos1, deprel, pos2):
+    def pat(sentence: list[Token]) -> list[Match]:
+        results = []
+        for i, token in enumerate(sentence):
+            if token.pos == pos2 and deprel in token.dep:
+                children = get_children(i, sentence)
+                if "mark" in children: 
+                    mark = children["mark"][0].lemma
+                    head = get_head(token, sentence)
+                    if head.pos == pos1:
+                        results.append(Match(mark + rule_name, (head.lemma, token.lemma), (head.pos, token.pos), mark))
+        return results
+    return pat
+
+
+def case_rel(rule_name, pos1, deprel, pos2):
+    def pat(sentence: list[Token]) -> list[Match]:
+        results = []
+        for i, token in enumerate(sentence):
+            if token.pos == pos2 and deprel in token.dep:
+                children = get_children(i, sentence)
+                if "case" in children: 
+                    mark = children["case"][0].lemma
+                    head = get_head(token, sentence)
+                    if head.pos == pos1:
+                        results.append(Match(mark + rule_name, (head.lemma, token.lemma), (head.pos, token.pos), mark))
+        return results
+    return pat
+
+
+
+def get_head(tok: Token, sentence: list[Token]) -> Token:
+    if tok.gov < len(sentence):
+        return sentence[tok.gov]
+    else:
+        return tok
+
+def get_children(tok_i: int, sentence: list[Token]) ->  dict[str, list[Token]]:
+    result = defaultdict(list)
+    for tok in sentence:
+        if tok.gov == tok_i:
+            result[tok.dep].append(tok)
+    return result
 
 PATTERNS = [
-        simple_rel("v -obj-> n", "VERB", "obj","NOUN"),
-        simple_rel("n <-nsubj- v", "VERB", "nsubj", "NOUN"),
-        simple_rel("n -nmod-> n", "NOUN","nmod", "NOUN")
+        not_so_simple_rel("v -obj-> n", "VERB", "obj","NOUN"),
+        not_so_simple_rel("n <-nsubj- v", "VERB", "nsubj", "NOUN"),
+        not_so_simple_rel("n -nmod-> n", "NOUN","nmod", "NOUN"),
+        marked_rel("_xcomp", "VERB", "xcomp","VERB"),
+        case_rel("_iobj", "VERB", "obl","NOUN"),
         ]
 
 def main(input_file, load_serialized=None):
@@ -64,8 +130,18 @@ def main(input_file, load_serialized=None):
             for sentence in item.analysis:
                  matches = pattern(sentence)
                  counter += Counter(matches)
+
+    pred2arg_counts = defaultdict(Counter)
+    arg2pred_counts = defaultdict(Counter)
+
+    print("prédicat", "", "", "argument", "", "mesures", sep="\t")
+    print("catégorie", "lemme", "relation", "catégorie", "lemme", "mesures", sep="\t")
     for m,i in counter.items():
-        print(i,m)
+        print(m.pos[0], m.lemmes[0], m.relation, m.pos[1], m.lemmes[1], i, sep="\t")
+        pred2arg_counts[f"{m.lemmes[0]} {m.relation}"][m.lemmes[1]] += i
+        arg2pred_counts[m.lemmes[1]][f"{m.lemmes[0]} {m.relation}"] += i
+
+    return counter
                   
 
 if __name__ == '__main__':

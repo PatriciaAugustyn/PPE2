@@ -31,10 +31,14 @@ def rss_reader_etree(filename: str | Path) -> list[Item]:
         title = item.find("title")
         if title is not None:
             title = title.text
+            # clean HTML
+            title = re.sub("<.+?>", "", title)
 
         description = item.find("description")
         if description is not None:
-            description = description.text
+            description = description.text or ""
+            # clean HTML
+            description = re.sub("<.+?>", "", description)
 
         pubdate = item.find("pubDate")
         if pubdate is None:

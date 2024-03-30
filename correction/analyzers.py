@@ -61,7 +61,7 @@ name2analyzer = {
 
 
 def main(input_file, load_serialized=None, save_serialized=None, output_file=None, analyzer=None):
-    DEMO_HARD_LIMIT = 10 # pour faire une démonstration au besoin
+    DEMO_HARD_LIMIT = 100 # pour faire une démonstration au besoin
 
     load_corpus = name2loader[load_serialized or "json"]
     save_corpus = name2saver[save_serialized or "json"]
@@ -73,8 +73,7 @@ def main(input_file, load_serialized=None, save_serialized=None, output_file=Non
     corpus.items = corpus.items[:DEMO_HARD_LIMIT]  # commenter pour traiter tout le corpus
     corpus.items = [analyze(model, item) for item in corpus.items]
 
-    if output_file:
-        save_corpus(corpus, output_file)
+    save_corpus(corpus, output_file)
 
 
 if __name__ == '__main__':
