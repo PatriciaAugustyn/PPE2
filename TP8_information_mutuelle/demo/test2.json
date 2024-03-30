@@ -1,0 +1,2493 @@
+[
+  {
+    "id": "https://www.lefigaro.fr/arts-expositions/hommages-mitiges-a-carl-andre-maitre-du-minimalisme-americain-20240128",
+    "source": "Le Figaro - Arts et Expositions.xml",
+    "title": "Hommages mitig\u00e9s \u00e0 Carl Andre, ma\u00eetre du minimalisme am\u00e9ricain",
+    "description": "DISPARITION Le grand artiste qui a pos\u00e9 ses sculptures abstraites dans tous les grands mus\u00e9es du monde, resta marqu\u00e9 par la mort violente de sa compagne, l\u2019artiste cubaine Ana Mendieta, en 1985. Cible des f\u00e9ministes am\u00e9ricaines, il reste un sujet d\u00e9licat \u00e0 sa mort, \u00e0 88 ans, le 24 janvier \u00e0 New York.",
+    "date": "2024-01-28",
+    "categories": [
+      "Arts Expositions"
+    ],
+    "analysis": [
+      {
+        "shape": "Hommages",
+        "lemma": "hommage",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "mitig\u00e9s",
+        "lemma": "mitiger",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Carl",
+        "lemma": "Carl",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Andre",
+        "lemma": "Andre",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "ma\u00eetre",
+        "lemma": "ma\u00eetre",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "minimalisme",
+        "lemma": "minimalisme",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "am\u00e9ricain",
+        "lemma": "am\u00e9ricain",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "DISPARITION",
+        "lemma": "disparition",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "Le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "grand",
+        "lemma": "grand",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "artiste",
+        "lemma": "artiste",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "qui",
+        "lemma": "qui",
+        "pos": "PRON"
+      },
+      {
+        "shape": "a",
+        "lemma": "avoir",
+        "pos": "AUX"
+      },
+      {
+        "shape": "pos\u00e9",
+        "lemma": "poser",
+        "pos": "VERB"
+      },
+      {
+        "shape": "ses",
+        "lemma": "son",
+        "pos": "DET"
+      },
+      {
+        "shape": "sculptures",
+        "lemma": "sculpture",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "abstraites",
+        "lemma": "abstrait",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "dans",
+        "lemma": "dans",
+        "pos": "ADP"
+      },
+      {
+        "shape": "tous",
+        "lemma": "tout",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "grands",
+        "lemma": "grand",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "mus\u00e9es",
+        "lemma": "mus\u00e9e",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "monde",
+        "lemma": "monde",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "resta",
+        "lemma": "rester",
+        "pos": "VERB"
+      },
+      {
+        "shape": "marqu\u00e9",
+        "lemma": "marquer",
+        "pos": "VERB"
+      },
+      {
+        "shape": "par",
+        "lemma": "par",
+        "pos": "ADP"
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "mort",
+        "lemma": "mort",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "violente",
+        "lemma": "violent",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "sa",
+        "lemma": "son",
+        "pos": "DET"
+      },
+      {
+        "shape": "compagne",
+        "lemma": "compagne",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "l\u2019",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "artiste",
+        "lemma": "artiste",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "cubaine",
+        "lemma": "cubain",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "Ana",
+        "lemma": "Ana",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Mendieta",
+        "lemma": "Mendieta",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP"
+      },
+      {
+        "shape": "1985",
+        "lemma": "1985",
+        "pos": "NUM"
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "Cible",
+        "lemma": "cible",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "des",
+        "lemma": "un",
+        "pos": "DET"
+      },
+      {
+        "shape": "f\u00e9ministes",
+        "lemma": "f\u00e9ministe",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "am\u00e9ricaines",
+        "lemma": "am\u00e9ricain",
+        "pos": "ADJ"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "il",
+        "lemma": "lui",
+        "pos": "PRON"
+      },
+      {
+        "shape": "reste",
+        "lemma": "rester",
+        "pos": "VERB"
+      },
+      {
+        "shape": "un",
+        "lemma": "un",
+        "pos": "DET"
+      },
+      {
+        "shape": "sujet",
+        "lemma": "sujet",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "d\u00e9licat",
+        "lemma": "d\u00e9licat",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "sa",
+        "lemma": "son",
+        "pos": "DET"
+      },
+      {
+        "shape": "mort",
+        "lemma": "mort",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "88",
+        "lemma": "88",
+        "pos": "NUM"
+      },
+      {
+        "shape": "ans",
+        "lemma": "an",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "24",
+        "lemma": "24",
+        "pos": "NUM"
+      },
+      {
+        "shape": "janvier",
+        "lemma": "janvier",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "New",
+        "lemma": "New",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "York",
+        "lemma": "York",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT"
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/automobile/les-secrets-de-l-autodrome-de-montlhery-la-piste-de-tous-les-records-depuis-100-ans-20240127",
+    "source": "Le Figaro - Automobile.xml",
+    "title": "Les secrets de l'autodrome de Montlh\u00e9ry, la piste de tous les records depuis 100 ans",
+    "description": "Le temple de la vitesse francilien, qui a connu son heure de gloire au cours du XXe si\u00e8cle, f\u00eate son centenaire la semaine prochaine, dans le cadre du salon R\u00e9tromobile.",
+    "date": "2024-01-27",
+    "categories": [
+      "Automobile",
+      "La Une Art de vivre"
+    ],
+    "analysis": [
+      {
+        "shape": "Les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "secrets",
+        "lemma": "secret",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "l'",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "autodrome",
+        "lemma": "autodrome",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Montlh\u00e9ry",
+        "lemma": "Montlh\u00e9ry",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "piste",
+        "lemma": "piste",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "tous",
+        "lemma": "tout",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "records",
+        "lemma": "record",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "depuis",
+        "lemma": "depuis",
+        "pos": "ADP"
+      },
+      {
+        "shape": "100",
+        "lemma": "100",
+        "pos": "NUM"
+      },
+      {
+        "shape": "ans",
+        "lemma": "an",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "Le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "temple",
+        "lemma": "temple",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "vitesse",
+        "lemma": "vitesse",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "francilien",
+        "lemma": "francilien",
+        "pos": "ADJ"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "qui",
+        "lemma": "qui",
+        "pos": "PRON"
+      },
+      {
+        "shape": "a",
+        "lemma": "avoir",
+        "pos": "AUX"
+      },
+      {
+        "shape": "connu",
+        "lemma": "conna\u00eetre",
+        "pos": "VERB"
+      },
+      {
+        "shape": "son",
+        "lemma": "son",
+        "pos": "DET"
+      },
+      {
+        "shape": "heure",
+        "lemma": "heure",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "gloire",
+        "lemma": "gloire",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "cours",
+        "lemma": "cours",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "XXe",
+        "lemma": "XXe",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "si\u00e8cle",
+        "lemma": "si\u00e8cle",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "f\u00eate",
+        "lemma": "f\u00eater",
+        "pos": "VERB"
+      },
+      {
+        "shape": "son",
+        "lemma": "son",
+        "pos": "DET"
+      },
+      {
+        "shape": "centenaire",
+        "lemma": "centenaire",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "semaine",
+        "lemma": "semaine",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "prochaine",
+        "lemma": "prochain",
+        "pos": "ADJ"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "dans",
+        "lemma": "dans",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "cadre",
+        "lemma": "cadre",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "salon",
+        "lemma": "salon",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "R\u00e9tromobile",
+        "lemma": "R\u00e9tromobile",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT"
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/basket-james-et-okobo-portent-monaco-face-a-chalon-sur-saone-20240128",
+    "source": "Le Figaro - Basket.xml",
+    "title": "Basket : James et Okobo portent Monaco face \u00e0 Chalon-sur-Sa\u00f4ne",
+    "description": "La \u00abRoca Team\u00bb a battu Chalon-sur-Sa\u00f4ne (82-69) dimanche en Betclic Elite gr\u00e2ce \u00e0 son duo Mike James-Elie Okobo.",
+    "date": "2024-01-28",
+    "categories": [
+      "Basket"
+    ],
+    "analysis": [
+      {
+        "shape": "Basket",
+        "lemma": "Basket",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "James",
+        "lemma": "James",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ"
+      },
+      {
+        "shape": "Okobo",
+        "lemma": "Okobo",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "portent",
+        "lemma": "porter",
+        "pos": "VERB"
+      },
+      {
+        "shape": "Monaco",
+        "lemma": "Monaco",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "face",
+        "lemma": "face",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Chalon-sur-Sa\u00f4ne",
+        "lemma": "Chalon-sur-Sa\u00f4ne",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "La",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "\u00ab",
+        "lemma": "\u00ab",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "Roca",
+        "lemma": "Roca",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Team\u00bb",
+        "lemma": "Team\u00bb",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "a",
+        "lemma": "avoir",
+        "pos": "AUX"
+      },
+      {
+        "shape": "battu",
+        "lemma": "battre",
+        "pos": "VERB"
+      },
+      {
+        "shape": "Chalon-sur-Sa\u00f4ne",
+        "lemma": "Chalon-sur-Sa\u00f4ne",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "(",
+        "lemma": "(",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "82-69",
+        "lemma": "82-69",
+        "pos": "NUM"
+      },
+      {
+        "shape": ")",
+        "lemma": ")",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "dimanche",
+        "lemma": "dimanche",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Betclic",
+        "lemma": "Betclic",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Elite",
+        "lemma": "Elite",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "gr\u00e2ce",
+        "lemma": "gr\u00e2ce",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "son",
+        "lemma": "son",
+        "pos": "DET"
+      },
+      {
+        "shape": "duo",
+        "lemma": "duo",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "Mike",
+        "lemma": "Mike",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "James-Elie",
+        "lemma": "James-Elie",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Okobo",
+        "lemma": "Okobo",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT"
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/nba/nba-289-points-les-lakers-de-james-remportent-un-match-fou-face-aux-warriors-de-curry-20240128",
+    "source": "Le Figaro - Basket.xml",
+    "title": "NBA: 289 points, les Lakers de James remportent un match fou face aux Warriors de Curry",
+    "description": "Un de ces matches qu'il revisionnera \u00abavec ses petits-enfants\u00bb: LeBron James et les Lakers ont battu les Warriors de Stephen Curry 145-144 au bout d'un duel exceptionnel entre les deux stars de la NBA et apr\u00e8s deux prolongations samedi.",
+    "date": "2024-01-28",
+    "categories": [
+      "Basket",
+      "NBA"
+    ],
+    "analysis": [
+      {
+        "shape": "NBA:",
+        "lemma": "nba:",
+        "pos": "ADP"
+      },
+      {
+        "shape": "289",
+        "lemma": "289",
+        "pos": "NUM"
+      },
+      {
+        "shape": "points",
+        "lemma": "point",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "Lakers",
+        "lemma": "Lakers",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "James",
+        "lemma": "James",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "remportent",
+        "lemma": "remporter",
+        "pos": "VERB"
+      },
+      {
+        "shape": "un",
+        "lemma": "un",
+        "pos": "DET"
+      },
+      {
+        "shape": "match",
+        "lemma": "match",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "fou",
+        "lemma": "fou",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "face",
+        "lemma": "face",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "Warriors",
+        "lemma": "Warriors",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Curry",
+        "lemma": "Curry",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Un",
+        "lemma": "un",
+        "pos": "PRON"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "ces",
+        "lemma": "ce",
+        "pos": "DET"
+      },
+      {
+        "shape": "matches",
+        "lemma": "match",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "qu'",
+        "lemma": "que",
+        "pos": "PRON"
+      },
+      {
+        "shape": "il",
+        "lemma": "lui",
+        "pos": "PRON"
+      },
+      {
+        "shape": "revisionnera",
+        "lemma": "revisionner",
+        "pos": "VERB"
+      },
+      {
+        "shape": "\u00ab",
+        "lemma": "\u00ab",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "avec",
+        "lemma": "avec",
+        "pos": "ADP"
+      },
+      {
+        "shape": "ses",
+        "lemma": "son",
+        "pos": "DET"
+      },
+      {
+        "shape": "petits-enfants",
+        "lemma": "petit-enfant",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "\u00bb",
+        "lemma": "\u00bb",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "LeBron",
+        "lemma": "LeBron",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "James",
+        "lemma": "James",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ"
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "Lakers",
+        "lemma": "Lakers",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "ont",
+        "lemma": "avoir",
+        "pos": "AUX"
+      },
+      {
+        "shape": "battu",
+        "lemma": "battre",
+        "pos": "VERB"
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "Warriors",
+        "lemma": "Warriors",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Stephen",
+        "lemma": "Stephen",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Curry",
+        "lemma": "Curry",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "145-144",
+        "lemma": "145-144",
+        "pos": "NUM"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "bout",
+        "lemma": "bout",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "d'",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "un",
+        "lemma": "un",
+        "pos": "DET"
+      },
+      {
+        "shape": "duel",
+        "lemma": "duel",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "exceptionnel",
+        "lemma": "exceptionnel",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "entre",
+        "lemma": "entre",
+        "pos": "ADP"
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "deux",
+        "lemma": "deux",
+        "pos": "NUM"
+      },
+      {
+        "shape": "stars",
+        "lemma": "star",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "NBA",
+        "lemma": "NBA",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ"
+      },
+      {
+        "shape": "apr\u00e8s",
+        "lemma": "apr\u00e8s",
+        "pos": "ADP"
+      },
+      {
+        "shape": "deux",
+        "lemma": "deux",
+        "pos": "NUM"
+      },
+      {
+        "shape": "prolongations",
+        "lemma": "prolongation",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "samedi",
+        "lemma": "samedi",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT"
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/nba/nba-enorme-coup-pour-wembanyama-et-les-spurs-vainqueurs-au-bout-du-suspense-face-aux-wolves-de-gobert-20240128",
+    "source": "Le Figaro - Basket.xml",
+    "title": "NBA : \u00e9norme coup pour Wembanyama et les Spurs, vainqueurs au bout du suspense face aux Wolves de Gobert",
+    "description": "Deuxi\u00e8me victoire en deux jours pour San Antonio, un succ\u00e8s de prestige sur le parquet de Minnesota (112-113).",
+    "date": "2024-01-28",
+    "categories": [
+      "Basket",
+      "NBA"
+    ],
+    "analysis": [
+      {
+        "shape": "NBA",
+        "lemma": "NBA",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "\u00e9norme",
+        "lemma": "\u00e9norme",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "coup",
+        "lemma": "coup",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "pour",
+        "lemma": "pour",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Wembanyama",
+        "lemma": "Wembanyama",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ"
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "Spurs",
+        "lemma": "Spurs",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "vainqueurs",
+        "lemma": "vainqueur",
+        "pos": "VERB"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "bout",
+        "lemma": "bout",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "suspense",
+        "lemma": "suspense",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "face",
+        "lemma": "face",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "Wolves",
+        "lemma": "Wolves",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Gobert",
+        "lemma": "Gobert",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Deuxi\u00e8me",
+        "lemma": "deuxi\u00e8me",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "victoire",
+        "lemma": "victoire",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP"
+      },
+      {
+        "shape": "deux",
+        "lemma": "deux",
+        "pos": "NUM"
+      },
+      {
+        "shape": "jours",
+        "lemma": "jour",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "pour",
+        "lemma": "pour",
+        "pos": "ADP"
+      },
+      {
+        "shape": "San",
+        "lemma": "San",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Antonio",
+        "lemma": "Antonio",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "un",
+        "lemma": "un",
+        "pos": "DET"
+      },
+      {
+        "shape": "succ\u00e8s",
+        "lemma": "succ\u00e8s",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "prestige",
+        "lemma": "prestige",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "sur",
+        "lemma": "sur",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "parquet",
+        "lemma": "parquet",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Minnesota",
+        "lemma": "Minnesota",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "(",
+        "lemma": "(",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "112-113",
+        "lemma": "112-113",
+        "pos": "NUM"
+      },
+      {
+        "shape": ")",
+        "lemma": ")",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT"
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/nba/nba-trouver-notre-identite-de-jeu-les-premiers-mots-de-doc-rivers-nouveau-coach-des-bucks-20240127",
+    "source": "Le Figaro - Basket.xml",
+    "title": "NBA : \u00abTrouver notre identit\u00e9 de jeu\u00bb, les premiers mots de Doc Rivers, nouveau coach des Bucks",
+    "description": "Ce samedi, Doc Rivers s\u2019est exprim\u00e9 pour la premi\u00e8re fois avec son nouveau club.",
+    "date": "2024-01-27",
+    "categories": [
+      "Basket",
+      "NBA"
+    ],
+    "analysis": [
+      {
+        "shape": "NBA",
+        "lemma": "NBA",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "\u00ab",
+        "lemma": "\u00ab",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "Trouver",
+        "lemma": "trouver",
+        "pos": "VERB"
+      },
+      {
+        "shape": "notre",
+        "lemma": "son",
+        "pos": "DET"
+      },
+      {
+        "shape": "identit\u00e9",
+        "lemma": "identit\u00e9",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "jeu\u00bb",
+        "lemma": "jeu\u00bb",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "premiers",
+        "lemma": "premier",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "mots",
+        "lemma": "mot",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Doc",
+        "lemma": "Doc",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Rivers",
+        "lemma": "Rivers",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "nouveau",
+        "lemma": "nouveau",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "coach",
+        "lemma": "coach",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "Bucks",
+        "lemma": "Bucks",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Ce",
+        "lemma": "ce",
+        "pos": "DET"
+      },
+      {
+        "shape": "samedi",
+        "lemma": "samedi",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "Doc",
+        "lemma": "Doc",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Rivers",
+        "lemma": "Rivers",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "s\u2019",
+        "lemma": "soi",
+        "pos": "PRON"
+      },
+      {
+        "shape": "est",
+        "lemma": "\u00eatre",
+        "pos": "AUX"
+      },
+      {
+        "shape": "exprim\u00e9",
+        "lemma": "exprimer",
+        "pos": "VERB"
+      },
+      {
+        "shape": "pour",
+        "lemma": "pour",
+        "pos": "ADP"
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "premi\u00e8re",
+        "lemma": "premier",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "fois",
+        "lemma": "fois",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "avec",
+        "lemma": "avec",
+        "pos": "ADP"
+      },
+      {
+        "shape": "son",
+        "lemma": "son",
+        "pos": "DET"
+      },
+      {
+        "shape": "nouveau",
+        "lemma": "nouveau",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "club",
+        "lemma": "club",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT"
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/basket-paris-encore-battu-face-a-strasbourg-20240127",
+    "source": "Le Figaro - Basket.xml",
+    "title": "Basket : Paris encore battu face \u00e0 Strasbourg",
+    "description": "Les Parisiens une deuxi\u00e8me d\u00e9faite de suite ce samedi face \u00e0 Strasbourg (89-86).",
+    "date": "2024-01-27",
+    "categories": [
+      "Basket"
+    ],
+    "analysis": [
+      {
+        "shape": "Basket",
+        "lemma": "Basket",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "Paris",
+        "lemma": "Paris",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "encore",
+        "lemma": "encore",
+        "pos": "ADV"
+      },
+      {
+        "shape": "battu",
+        "lemma": "battre",
+        "pos": "VERB"
+      },
+      {
+        "shape": "face",
+        "lemma": "face",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Strasbourg",
+        "lemma": "Strasbourg",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "Parisiens",
+        "lemma": "Parisiens",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "une",
+        "lemma": "un",
+        "pos": "DET"
+      },
+      {
+        "shape": "deuxi\u00e8me",
+        "lemma": "deuxi\u00e8me",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "d\u00e9faite",
+        "lemma": "d\u00e9faite",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "suite",
+        "lemma": "suite",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "ce",
+        "lemma": "ce",
+        "pos": "DET"
+      },
+      {
+        "shape": "samedi",
+        "lemma": "samedi",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "face",
+        "lemma": "face",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Strasbourg",
+        "lemma": "Strasbourg",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "(",
+        "lemma": "(",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "89-86",
+        "lemma": "89-86",
+        "pos": "NUM"
+      },
+      {
+        "shape": ")",
+        "lemma": ")",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT"
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/basket-le-csp-limoges-en-plein-chaos-20240127",
+    "source": "Le Figaro - Basket.xml",
+    "title": "Basket: le CSP Limoges, monument du basket fran\u00e7ais, en plein chaos",
+    "description": "Le monument du basket fran\u00e7ais, sanctionn\u00e9 pour probl\u00e8mes financiers, vient de voir partir son entra\u00eeneur et de limoger son directeur sportif, une situation de plus en plus mal v\u00e9cue par joueurs et supporters.",
+    "date": "2024-01-27",
+    "categories": [
+      "Basket"
+    ],
+    "analysis": [
+      {
+        "shape": "Basket",
+        "lemma": "Basket",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "CSP",
+        "lemma": "CSP",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Limoges",
+        "lemma": "Limoges",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "monument",
+        "lemma": "monument",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "basket",
+        "lemma": "basket",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "fran\u00e7ais",
+        "lemma": "fran\u00e7ais",
+        "pos": "ADJ"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP"
+      },
+      {
+        "shape": "plein",
+        "lemma": "plein",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "chaos",
+        "lemma": "chaos",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "Le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "monument",
+        "lemma": "monument",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "basket",
+        "lemma": "basket",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "fran\u00e7ais",
+        "lemma": "fran\u00e7ais",
+        "pos": "ADJ"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "sanctionn\u00e9",
+        "lemma": "sanctionner",
+        "pos": "VERB"
+      },
+      {
+        "shape": "pour",
+        "lemma": "pour",
+        "pos": "ADP"
+      },
+      {
+        "shape": "probl\u00e8mes",
+        "lemma": "probl\u00e8me",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "financiers",
+        "lemma": "financier",
+        "pos": "ADJ"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "vient",
+        "lemma": "venir",
+        "pos": "VERB"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "voir",
+        "lemma": "voir",
+        "pos": "AUX"
+      },
+      {
+        "shape": "partir",
+        "lemma": "partir",
+        "pos": "VERB"
+      },
+      {
+        "shape": "son",
+        "lemma": "son",
+        "pos": "DET"
+      },
+      {
+        "shape": "entra\u00eeneur",
+        "lemma": "entra\u00eeneur",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "limoger",
+        "lemma": "limoger",
+        "pos": "VERB"
+      },
+      {
+        "shape": "son",
+        "lemma": "son",
+        "pos": "DET"
+      },
+      {
+        "shape": "directeur",
+        "lemma": "directeur",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "sportif",
+        "lemma": "sportif",
+        "pos": "ADJ"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "une",
+        "lemma": "un",
+        "pos": "DET"
+      },
+      {
+        "shape": "situation",
+        "lemma": "situation",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "plus",
+        "lemma": "plus",
+        "pos": "ADV"
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP"
+      },
+      {
+        "shape": "plus",
+        "lemma": "plus",
+        "pos": "ADV"
+      },
+      {
+        "shape": "mal",
+        "lemma": "mal",
+        "pos": "ADV"
+      },
+      {
+        "shape": "v\u00e9cue",
+        "lemma": "vivre",
+        "pos": "VERB"
+      },
+      {
+        "shape": "par",
+        "lemma": "par",
+        "pos": "ADP"
+      },
+      {
+        "shape": "joueurs",
+        "lemma": "joueur",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ"
+      },
+      {
+        "shape": "supporters",
+        "lemma": "supporter",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT"
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/sports/basket/nba/nba-73-points-pour-un-doncic-historique-booker-prend-feu-en-vain-wembanama-et-les-spurs-convaincants-20240127",
+    "source": "Le Figaro - Basket.xml",
+    "title": "NBA : 73 points pour un Doncic historique, Booker prend feu en vain, Wembanama et les Spurs convaincants",
+    "description": "L'arri\u00e8re slov\u00e8ne de Dallas s'est fendu de 73 points face \u00e0 Atlanta la nuit pass\u00e9e, r\u00e9alisant ainsi la quatri\u00e8me performance de toute l'histoire de la NBA.",
+    "date": "2024-01-27",
+    "categories": [
+      "Basket",
+      "NBA"
+    ],
+    "analysis": [
+      {
+        "shape": "NBA",
+        "lemma": "NBA",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "73",
+        "lemma": "73",
+        "pos": "NUM"
+      },
+      {
+        "shape": "points",
+        "lemma": "point",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "pour",
+        "lemma": "pour",
+        "pos": "ADP"
+      },
+      {
+        "shape": "un",
+        "lemma": "un",
+        "pos": "DET"
+      },
+      {
+        "shape": "Doncic",
+        "lemma": "Doncic",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "historique",
+        "lemma": "historique",
+        "pos": "ADJ"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "Booker",
+        "lemma": "Booker",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "prend",
+        "lemma": "prendre",
+        "pos": "VERB"
+      },
+      {
+        "shape": "feu",
+        "lemma": "feu",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP"
+      },
+      {
+        "shape": "vain",
+        "lemma": "vain",
+        "pos": "ADJ"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "Wembanama",
+        "lemma": "Wembanama",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "et",
+        "lemma": "et",
+        "pos": "CCONJ"
+      },
+      {
+        "shape": "les",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "Spurs",
+        "lemma": "Spurs",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "convaincants",
+        "lemma": "convaincant",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "L'",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "arri\u00e8re",
+        "lemma": "arri\u00e8re",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "slov\u00e8ne",
+        "lemma": "slov\u00e8ne",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Dallas",
+        "lemma": "Dallas",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "s'",
+        "lemma": "soi",
+        "pos": "PRON"
+      },
+      {
+        "shape": "est",
+        "lemma": "\u00eatre",
+        "pos": "AUX"
+      },
+      {
+        "shape": "fendu",
+        "lemma": "fendre",
+        "pos": "VERB"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "73",
+        "lemma": "73",
+        "pos": "NUM"
+      },
+      {
+        "shape": "points",
+        "lemma": "point",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "face",
+        "lemma": "face",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "Atlanta",
+        "lemma": "Atlanta",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "nuit",
+        "lemma": "nuit",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "pass\u00e9e",
+        "lemma": "passer",
+        "pos": "VERB"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "r\u00e9alisant",
+        "lemma": "r\u00e9aliser",
+        "pos": "VERB"
+      },
+      {
+        "shape": "ainsi",
+        "lemma": "ainsi",
+        "pos": "ADV"
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "quatri\u00e8me",
+        "lemma": "quatri\u00e8me",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "performance",
+        "lemma": "performance",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "toute",
+        "lemma": "tout",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "l'",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "histoire",
+        "lemma": "histoire",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "la",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "NBA",
+        "lemma": "NBA",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT"
+      }
+    ]
+  },
+  {
+    "id": "https://www.lefigaro.fr/cinema/festival-de-gerardmer-sleep-un-grand-prix-qui-empeche-de-dormir-20240128",
+    "source": "Le Figaro - Cinema.xml",
+    "title": "Festival de G\u00e9rardmer : Sleep, un Grand Prix qui emp\u00eache de dormir",
+    "description": "Le premier film du Sud-cor\u00e9en Jason Yu, en salles le 21 f\u00e9vrier, triomphe au Festival international du film fantastique.",
+    "date": "2024-01-28",
+    "categories": [
+      "Cin\u00e9ma",
+      "Culture"
+    ],
+    "analysis": [
+      {
+        "shape": "Festival",
+        "lemma": "festival",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "G\u00e9rardmer",
+        "lemma": "G\u00e9rardmer",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ":",
+        "lemma": ":",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "Sleep",
+        "lemma": "Sleep",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "un",
+        "lemma": "un",
+        "pos": "DET"
+      },
+      {
+        "shape": "Grand",
+        "lemma": "grand",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "Prix",
+        "lemma": "prix",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "qui",
+        "lemma": "qui",
+        "pos": "PRON"
+      },
+      {
+        "shape": "emp\u00eache",
+        "lemma": "emp\u00eacher",
+        "pos": "VERB"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "dormir",
+        "lemma": "dormir",
+        "pos": "VERB"
+      },
+      {
+        "shape": "Le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "premier",
+        "lemma": "premier",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "film",
+        "lemma": "film",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "Sud-cor\u00e9en",
+        "lemma": "sud-cor\u00e9en",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "Jason",
+        "lemma": "Jason",
+        "pos": "PROPN"
+      },
+      {
+        "shape": "Yu",
+        "lemma": "Yu",
+        "pos": "PROPN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "en",
+        "lemma": "en",
+        "pos": "ADP"
+      },
+      {
+        "shape": "salles",
+        "lemma": "salle",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "21",
+        "lemma": "21",
+        "pos": "NUM"
+      },
+      {
+        "shape": "f\u00e9vrier",
+        "lemma": "f\u00e9vrier",
+        "pos": "NOUN"
+      },
+      {
+        "shape": ",",
+        "lemma": ",",
+        "pos": "PUNCT"
+      },
+      {
+        "shape": "triomphe",
+        "lemma": "triomphe",
+        "pos": "VERB"
+      },
+      {
+        "shape": "\u00e0",
+        "lemma": "\u00e0",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "Festival",
+        "lemma": "festival",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "international",
+        "lemma": "international",
+        "pos": "ADJ"
+      },
+      {
+        "shape": "de",
+        "lemma": "de",
+        "pos": "ADP"
+      },
+      {
+        "shape": "le",
+        "lemma": "le",
+        "pos": "DET"
+      },
+      {
+        "shape": "film",
+        "lemma": "film",
+        "pos": "NOUN"
+      },
+      {
+        "shape": "fantastique",
+        "lemma": "fantastique",
+        "pos": "ADJ"
+      },
+      {
+        "shape": ".",
+        "lemma": ".",
+        "pos": "PUNCT"
+      }
+    ]
+  }
+]
