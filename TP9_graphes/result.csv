@@ -1,0 +1,110 @@
+obj
+nmod
+nmod
+nmod
+nmod
+obj
+obj
+nsubj
+nmod
+nmod
+nmod
+nmod
+obj
+nsubj
+nmod
+nmod
+obj
+nmod
+nmod
+obj
+nsubj
+nmod
+nmod
+nmod
+obj
+nmod
+nmod
+obj
+nsubj
+nmod
+nmod
+nmod
+obj
+nmod
+obj
+obj
+nsubj
+obj
+obj
+nsubj
+nmod
+obj
+nmod
+nmod
+obj
+nsubj
+nmod
+obj
+nmod
+obj
+obj
+nsubj
+nmod
+nmod
+nmod
+nmod
+obj
+nmod
+nsubj
+   Prédicat Catégorie              Lemme  ... Argument Catégorie Mesures Fréquence
+0                   v          'article'  ...                  N                 2
+1                   v             'coup'  ...                  N                 1
+2                   v        'président'  ...                  N                 1
+3                   v          'blocage'  ...                  N                 1
+4                   v       'dévoiement'  ...                  N                 1
+5                   v      'disposition'  ...                  N                 1
+6                   v          'version'  ...                  N                 1
+7                   v           'projet'  ...                  N                 1
+8                   v            'poids'  ...                  N                 1
+9                   v            'crise'  ...                  N                 1
+10                  v      'proposition'  ...                  N                 1
+11                  v      'embrasement'  ...                  N                 1
+12                  v     'contestation'  ...                  N                 1
+13                  v           'grogne'  ...                  N                 1
+14                  v             'voix'  ...                  N                 1
+15                  v          'extrait'  ...                  N                 1
+16                  v       'inventaire'  ...                  N                 1
+17                  n           'droite'  ...                  N                 3
+18                  n             'État'  ...                  N                 2
+19                  n          'conseil'  ...                  N                 2
+20                  n            'texte'  ...                  N                 2
+21                  n              'loi'  ...                  N                 2
+22                  n           'région'  ...                  N                 2
+23                  n      'immigration'  ...                  N                 1
+24                  n       'démocratie'  ...                  N                 1
+25                  n             'pays'  ...                  N                 1
+26                  n            'droit'  ...                  N                 1
+27                  n      'agriculteur'  ...                  N                 1
+28                  n    'contestataire'  ...                  N                 1
+29                  n            'monde'  ...                  N                 1
+30                  n            'forme'  ...                  N                 1
+31                  n        'intérieur'  ...                  N                 1
+32                  n            'crise'  ...                  N                 1
+33                  n           'mesure'  ...                  N                 1
+34                  n     'gouvernement'  ...                  N                 1
+35                  n          'réponse'  ...                  N                 1
+36                  n        'procédure'  ...                  N                 1
+37                  n             'fond'  ...                  N                 1
+38                  n           'erreur'  ...                  N                 1
+39                  n          'semaine'  ...                  N                 1
+40                  v         'décision'  ...                  N                 1
+41                  v         'ministre'  ...                  N                 1
+42                  v          'conseil'  ...                  N                 1
+43                  v     'gouvernement'  ...                  N                 1
+44                  v         'exécutif'  ...                  N                 1
+45                  v           'député'  ...                  N                 1
+46                  v            'Sages'  ...                  N                 1
+47                  v  'vice-présidente'  ...                  N                 1
+
+[48 rows x 5 columns]

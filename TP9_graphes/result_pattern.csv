@@ -1,0 +1,82 @@
+Item,Count
+"Match(rule='v-obj-n', lemmes=('dénoncer', 'coup'))",1
+"Match(rule='n-nmod-n', lemmes=('loi', 'immigration'))",5
+"Match(rule='n-nmod-n', lemmes=('censure', 'conseil'))",1
+"Match(rule='n-nmod-n', lemmes=('coup', 'État'))",1
+"Match(rule='n-nmod-n', lemmes=('coup', 'droit'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('dénoncer', 'censure', 'après'))",1
+"Match(rule='v-obj-n', lemmes=('amener', 'président'))",1
+"Match(rule='v-obj-n', lemmes=('regretter', 'dévoiement'))",1
+"Match(rule='v-nsubj-n', lemmes=('amener', 'décision'))",1
+"Match(rule='n-nmod-n', lemmes=('juridiction', 'pays'))",1
+"Match(rule='n-nmod-n', lemmes=('président', 'région'))",1
+"Match(rule='n-nmod-n', lemmes=('dévoiement', 'démocratie'))",1
+"Match(rule='v-xcomp-v-mark-adp', lemmes=('amener', 'regretter', 'à'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('regretter', 'interview', 'dans'))",1
+"Match(rule='n-nmod-n', lemmes=('colère', 'agriculteur'))",1
+"Match(rule='v-obj-n', lemmes=('multiplier', 'blocage'))",1
+"Match(rule='v-nsubj-n', lemmes=('revenir', 'ministre'))",1
+"Match(rule='n-nmod-n', lemmes=('ministre', 'intérieur'))",1
+"Match(rule='n-nmod-n', lemmes=('courrol', 'monde'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('revenir', 'courrol', 'sur'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('multiplier', 'week-end', 'depuis'))",1
+"Match(rule='v-obj-n', lemmes=('avoir', 'poids'))",1
+"Match(rule='n-nmod-n', lemmes=('profil', 'contestataire'))",1
+"Match(rule='n-nmod-n', lemmes=('réponse', 'État'))",1
+"Match(rule='v-xcomp-v-mark-adp', lemmes=('accuser', 'varier', 'de'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('varier', 'profil', 'selon'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('avoir', 'réponse', 'dans'))",1
+"Match(rule='v-obj-n', lemmes=('préserver', 'disposition'))",1
+"Match(rule='v-nsubj-n', lemmes=('censurer', 'conseil'))",3
+"Match(rule='n-nmod-n', lemmes=('tiers', 'texte'))",1
+"Match(rule='n-nmod-n', lemmes=('texte', 'forme'))",1
+"Match(rule='n-nmod-n', lemmes=('accord', 'droite'))",1
+"Match(rule='v-xcomp-v-mark-adp', lemmes=('féliciter', 'voir', 'de'))",1
+"Match(rule='v-nsubj-n-amod-adj', lemmes=('censurer', 'conseil', 'constitutionnel'))",3
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('proposer', 'accord', 'avant'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('promulguer', 'heure', 'dans'))",1
+"Match(rule='v-obj-n', lemmes=('censurer', 'version'))",1
+"Match(rule='n-nmod-n', lemmes=('version', 'texte'))",1
+"Match(rule='n-nmod-n', lemmes=('issue', 'crise'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('durcier', 'issue', 'à'))",1
+"Match(rule='v-obj-n', lemmes=('présenter', 'projet'))",1
+"Match(rule='v-nsubj-n', lemmes=('présenter', 'gouvernement'))",1
+"Match(rule='n-nmod-n', lemmes=('projet', 'loi'))",1
+"Match(rule='n-nmod-n', lemmes=('suppression', 'mesure'))",1
+"Match(rule='n-nmod-n', lemmes=('suppression', 'conseil'))",1
+"Match(rule='v-obj-n', lemmes=('résoudre', 'crise'))",1
+"Match(rule='n-nmod-n', lemmes=('défi', 'gouvernement'))",1
+"Match(rule='v-obj-n', lemmes=('présenter', 'proposition'))",1
+"Match(rule='v-obj-n', lemmes=('calmer', 'contestation'))",1
+"Match(rule='v-nsubj-n', lemmes=('espérer', 'exécutif'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('rogner', 'engagement', 'sur'))",1
+"Match(rule='v-obj-n', lemmes=('redouter', 'embrasement'))",1
+"Match(rule='v-obj-n', lemmes=('calmer', 'grogne'))",1
+"Match(rule='v-nsubj-n', lemmes=('tenter', 'député'))",1
+"Match(rule='v-xcomp-v-mark-adp', lemmes=('tenter', 'calmer', 'de'))",1
+"Match(rule='n-nmod-n', lemmes=('attente', 'réponse'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('monter', 'attente', 'dans'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('monter', 'cran', 'de'))",1
+"Match(rule='v-obj-n', lemmes=('censurer', 'article'))",1
+"Match(rule='n-nmod-n', lemmes=('raison', 'procédure'))",1
+"Match(rule='n-nmod-n', lemmes=('article', 'fond'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('censurer', 'raison', 'pour'))",1
+"Match(rule='n-conj-n-cc-cconj', lemmes=('raison', 'article', 'et'))",1
+"Match(rule='v-obj-n', lemmes=('valider', 'article'))",1
+"Match(rule='v-nsubj-n', lemmes=('valider', 'Sages'))",1
+"Match(rule='n-nmod-n', lemmes=('article', 'loi'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('valider', 'réserve', 'avec'))",1
+"Match(rule='v-obj-n', lemmes=('donner', 'voix'))",1
+"Match(rule='n-nmod-n', lemmes=('élire', 'droite'))",1
+"Match(rule='v-obj-n', lemmes=('publier', 'extrait'))",1
+"Match(rule='v-obj-n', lemmes=('faire', 'inventaire'))",1
+"Match(rule='v-nsubj-n', lemmes=('plaider', 'vice-présidente'))",1
+"Match(rule='n-nmod-n', lemmes=('vice-présidente', 'région'))",1
+"Match(rule='n-nmod-n', lemmes=('refonte', 'droite'))",1
+"Match(rule='n-nmod-n', lemmes=('inventaire', 'erreur'))",1
+"Match(rule='v-xcomp-v-mark-adp', lemmes=('hésiter', 'faire', 'à'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('plaider', 'livre', 'dans'))",1
+"Match(rule='v-obl:mod-n-case-adp', lemmes=('plaider', 'refonte', 'pour'))",1
+"Match(rule='n-conj-n-cc-cconj', lemmes=('erreur', 'échec', 'et'))",1
+"Match(rule='n-nmod-n', lemmes=('phrase', 'semaine'))",1
+"Match(rule='n-conj-n-cc-cconj', lemmes=('phrase', 'coulisse', 'et'))",1
